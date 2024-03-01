@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div className="col-md-4">
               <h1>
-                350 <span style={{ color: "yellow" }}>+</span>
+                350 <span style={{ color: "yellow" }}>+</span> 
               </h1>
               <p style={{ fontWeight: "bold" }}>Strong Team</p>
             </div>
