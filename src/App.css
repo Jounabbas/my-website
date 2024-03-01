@@ -1,38 +1,1226 @@
-.App {
-  text-align: center;
+
+@media screen and (max-width: 1055px) {
+  .con_sec3 p{
+    margin-left: 30%;  
+  }
+  .gam_sec12{ 
+    height: 430px;
+  }
+  .gam_sec12 button{
+    margin-top: 350px;
+  }
+}
+@media screen and (max-width: 990px) {
+    .section2{
+        width: 90%;
+       height: 180px; 
+        margin-top: 20px;
+       text-align: center;
+      }
+    .section3{
+        width: 100%;
+       min-height: 700px;
+        margin-top:10px ;
+      }
+      #sec3_1{
+        width: 90%;
+        margin-left: 5%;
+       min-height: 350px;
+        background-image: url("https://www.gamedistrict.co/assets/images/publish.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+      .sec3_2{
+        height: 350px;
+        width: 90%;
+        margin-left: 5%;
+      
+      }
+      .sec7{
+        width: 96%;
+        height: 470px;
+        margin-top: 20px;
+        margin-left: 2%;
+      }
+      .sec7_2 button{
+        margin-left: 80px;
+        margin-top: 40px;
+      }
+      .sec8{
+        width: 98%;
+        margin-left: 1%;
+        height: 800px;
+        margin-top: 40px;
+      }
+      .sec8_1{
+        width: 40%;
+        height: 400px;
+        color: white;
+        float: left;
+        margin-left: 5%;
+       }
+       .sec8_2{
+        width: 40%;
+        height: 400px;
+        margin-left: 7%;      
+        float: left;
+      }
+     
+      .sec8_3{
+        width: 40%;
+        height: 400px;
+        margin-left: 7%;
+        float: left;
+      }
+      .sec8_4{
+        width: 40%;
+        height: 400px;
+        margin-left: 7%;
+        float: left;
+      }
+
+
+      .input input{
+        width: 100%;
+      }
+      .pub_sec8{
+        height: 390px;
+      }
+      .pub_sec8 button{ 
+        margin-left: 35%;
+      }
+      .gam_sec1{
+        height: 400px;
+      }
+      .gam_sec12{
+        height: 400px;
+      }
+      .gam_sec12 button{
+        margin-top: 320px;
+      }
+      #about_sec5{
+        margin-top: 20px;
+       
+      }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 850px) {
+  #abu_sec1{
+    height: 450px;
+  }
+  .pub_sec1{
+    height: 500px;
+  }
+  .pub_sec3{
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+  }
+  .gam_sec1{
+    height: 350px;
+  }
+  .gam_sec1_img img{
+    margin-top: 100px;
+    width: 28%;
+  }
+  .gam_sec4_1{
+    width: 42%;
+    margin-left: 5%;
+  }
+  .gam_sec4_2{
+    width: 45%;
+    margin-left: 3%;
+  }
+  .gam_sec4_2_img{
+    width: 80%;
+    margin-left: 15%;
+  }
+  .gam_sec6{
+    height: 830px;
+  }
+  .gam_sec6_1{
+    width: 55%;
+    margin-left: 2%;
+    margin-top: 0;
+  }
+  .gam_sec6_1 h1{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .gam_sec6_1 h2{
+    margin-left: 10px;
+  }
+  .gam_sec6_1 p{
+    margin-left: 10px;
+  }
+  .gam_sec6_2{
+    width: 38%;
+    margin-left: 4%;
+    margin-top: 0;
+  }
+  .gam_sec6_3{
+    clear: both;
+    width: 100%;
+    margin-left: 0cm;
+    height: 300px;
+    margin-top: 20pxpx;
+  }
+  .gam_sec6_3_1{
+   width: 43%;
+   margin-left: 5%;
+  margin-top: 0;
+   float: left;
+  }
+  .gam_sec7{
+    width: 80%;
+    text-align: justify;
+    margin-left: 10%;
+  }
+  .gam_sec9_1{
+    width: 48%;
+    margin-left: 2%;
+  }
+  .gam_sec10{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .sol_sec1{
+    height: 500px;
+  }
+  .sol_sec1_1{
+    width: 55%;
+    height: 420px;
+  }
+  .sol_sec1_2{
+    width: 40%;
+    margin-left: 2.5%;
+    height: 420px;
+  }
+  .sol_sec4{
+    height: 370px;
+  }
+  .sol_sec4_1{
+    width: 30%;
+    margin-left: 3%;
+    height: 370px;
+  }
+  .sol_sec6_1{
+    width: 30%;
+    margin-left: 3%;
+  }
+  .sol_sec6_2{
+    width: 30%;
+    margin-left: 3%;
+  }
+  .sol_sec8_2{
+    width: 70%;
+  }
+  .sol_sec8_4{
+    width: 70%;
+    margin:0 2% 0 6%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@media screen and (max-width: 769px) {
+  #con_sec3{
+    width: 90%;
+    margin-top: 30px;
+
+  }
+  .ro{
+    width: 90%;
+    height: 1600px;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .ro img{
+      width: 100%;
+      height: 250px;
+      margin-top: 20px;
+  }
+  .pub_sec4_1{
+    margin-left: 5%;
+  }
+  .pub_sec4_2{
+    width: 60%;
+  }
+  .gam_sec1{
+    height: 300px;
+  }
+  .gam_sec1_img img{
+    margin-top: 80px;
+    width: 28%;
+  }
+  .gam_sec1_img{
+    margin-left: 30%;
+  }
+  #about_sec5_1{
+    width: 96%;
+    margin-left: 2%;
+  }
+  #abu_sec1{
+    height: 650px;
+  }
+  .abu_sec2_1{
+    width: 80%;
+   margin-left: 10%;
+  }
+
+}
+@media screen and (max-width: 750px) {
+ 
+    .sec7{
+        width: 96%;
+        height: 800px;
+        margin-top: 20px;
+        margin-left: 2%;
+      }
+      .sec7_1{
+        width: 45%;
+        height: 450px;
+        float: left;
+        
+      }
+      .sec7_2{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+        height: 450px;
+        
+      }
+      .sec7_3{
+        width: 70%;
+        float: left;
+       margin-left: 15%;
+       margin-top: 30px;
+        height: 300px;
+        
+      }
+      .sec7_3 img{
+        width: 100%;
+        height: 300px;
+      }
+
+
+       /*career pagr responsive style*/
+       #col {
+        text-align: center;
+       }
+      #col2{
+        margin-left: 35%;
+      }
+
+      #con_sec3{
+        min-height: 780px;
+        margin-top: 30px;
+       }
+       
+      .input input{
+        width: 100%;
+      }
+      .con_sec3 p{
+        margin-left: 25%;
+      }
+      .pub_sec1{
+        width: 100%;
+        min-height: 850px;
+
+      }
+      .pub_sec1_1{
+        width: 90%;
+        min-height: 200px;
+        margin-left: 5%;
+        margin-top: 20px;
+        }
+      .pub_sec1_2{
+        width: 90%;
+        height: 400px;
+        margin-right: 5%;
+        clear: both;
+        margin-top: -50px;
+      }
+      .pub_sec1_2 img{
+        width: 100%;
+        height: 400px;
+       
+      }
+      .pub_sec5_1{
+        margin-left: 3%;
+        width: 60%;
+      }
+      .pub_sec6{
+        height: 850px;
+      }
+      .pub_sec6_1{
+        width: 40%;
+        margin-left: 7%;
+      }
+      .pub_sec7_1{
+        width: 40%;
+        margin-left: 7%;
+        height: 360px;
+      }
+      .pub_sec7_2{
+        width: 40%;
+        height: 360px;
+        margin-left: 7%;
+      }
+      .gam_sec5{
+        height: 680px;
+      }
+      .gam_sec5_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 260px;
+      }
+      .gam_sec5_1 img{
+        height: 250px;
+      }
+      .gam_sec5_2{
+        width: 90%;
+        margin-left: 5%;
+        height: 390px;
+      }
+      .sol_sec7{
+        width: 80%;
+        margin-left: 10%;
+      }
+      .sol_sec10_1{
+        width: 80%;
+        margin-left: 10%;
+      }
+      .sol_sec10{
+        height: 420px;
+      }
+      .sol_sec10_2{
+        width: 90%;
+        margin-left: 5%;
+       
+      }
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 642px) {
+  #abu_sec5_2{
+    height: 250px;
+  }
+  .sol_sec4{
+    height: 680px;
+  }
+  .sol_sec4_1{
+    width: 45%;
+    margin-left: 3.5%;
+    height: 330px;
+    margin-top: 10px;
+  }
+    #con1{
+        width: 90%;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-bottom: 30px;
+       
+      }
+      #con1 img{
+        width:100%;
+        height: 300px;
+      }
+      #con2{
+        width: 90%;
+       
+        height: 400px;
+       margin-left: 5%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      #img-con{
+        width: 100%;
+        height: 150px;
+      }
+      .sec4{
+        width: 80%;
+        height: 150px;
+       margin-top: 30px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+      }
+      .sec6{
+        width: 98%;
+        height: 550px;
+        margin-left: 1%;
+       background-color: rgb(243,243,243);
+        margin-top: 20px;
+      }
+      .sec6_1{
+        width: 20%;
+        height:200px ;
+        margin: 20px 0 0 50px;
+        float: left;
+      }
+      .sec6_2{
+        width: 20%;
+        height:200px ;
+        margin: 20px 0 0 50px;
+        float: left;
+      }
+      .sec6 button{
+        margin-left: 30%;
+        margin-top: 30px;
+      }
+      .sec7{
+        width: 96%;
+        height: 1200px;
+        margin-top: 20px;
+        margin-left: 2%;
+      }
+      .sec7_1{
+        width: 80%;
+        margin-top: 20px;
+        height: 400px;
+        margin-left: 10%;
+      }
+      .sec7_2{
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+        
+      }
+      .sec7_2 button{
+        margin-left: 30%;
+        margin-top: 40px;
+      }
+      .sec7_3{
+        width: 90%;
+       margin-left: 5%;
+       margin-top: 30px;
+        height: 300px;
+        
+      }
+      .sec7_3 img{
+        width: 100%;
+        height: 300px;
+      }
+
+       /*career pagr responsive style*/
+       #col2{
+        margin-left: 30%;
+      }
+     #job_sec1{
+      width: 90%;
+      margin-left: 5%;
+      text-align: justify;
+     }
+     #job_sec2{
+      width: 90%;
+      text-align: justify;
+      height: 5%;
+     }
+     .con_sec3{
+      width: 90%;
+      margin-left: 0cm;
+     }
+     .con_sec3 img{
+      width: 100%;
+      margin-left: 5%;
+     }
+     .pub_sec2{
+      height: 780px;
+      margin-top: 20px;
+     }
+     .pub_sec2_1{
+      width: 90%;
+     }
+     .pub_sec2_2{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: -40px;
+      float: left;
+     }
+     .pub_sec3{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .pub_sec5{
+     height: 440px;
+  
+    }
+    .pub_sec5_1 p{
+      text-align: justify;
+    }
+    .pub_sec6_1{
+      width: 45%;
+      margin-left: 3%;
+    }
+    .pub_sec8 button{ 
+      margin-left: 30%;
+    }
+    .gam_sec1{
+      height: 250px;
+    }
+    .gam_sec4{
+      height: 650px;
+    }
+    .gam_sec4_1{
+      width: 90%;
+      margin-left: 5%;
+      height: 300px;
+      margin-top: 0;
+    }
+    .gam_sec4_1 h2{
+      margin-top: 0cqi;
+    }
+    .gam_sec4_1 p{
+      margin-top: 0cqmax;
+    }
+    .gam_sec4_2{
+      width: 90%;
+      margin-left: 5%;
+      height: 270px;
+    }
+    .gam_sec4_2_img{
+      width: 65%;
+      margin-left: 15%;
+    }
+    .gam_sec7{
+      width: 90%;
+      margin-left: 5%;
+      height: 350px;
+    }
+    .gam_sec7 h1{
+      margin: 0%;
+    }
+    .gam_sec9{
+      height: 750px;
+    }
+    .gam_sec9_1{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 0;
+    }
+    .gam_sec9_2{
+      width: 90%;
+      margin-left: 5%;
+      height: 250px;
+      margin-top: 40px;
+    }
+    .gam_sec12{
+      height: 300px;
+    }
+    .gam_sec12 button{
+      margin-top: 250px;
+      margin-left: 35%;
+    }
+    .sol_sec1{
+      height: 770px;
+    }
+    .sol_sec1_1{
+      width: 90%;
+
+      margin-left: 5%;
+      height: 350px;
+    }
+    .sol_sec1_2{
+      width: 90%;
+      margin-left: 5%;
+      height: 320px;
+      margin-top: 20px;
+    }
+    .sol_sec1_2 img{
+      height: 320px;
+    }
+    .sol_sec3_1{
+      width: 100%;
+      margin-left: 0cqmin;
+    }
+    #about_sec5{
+      margin-top: 20px;
+      height: 170px;
+    }
+    .sol_sec6{
+      height: 740px;
+    }
+    .sol_sec6_1{
+      width: 45%;
+      margin-left: 3%;
+      margin-top: 10px;
+    }
+    .sol_sec6_2{
+      width: 45%;
+      margin-left: 3%;
+      margin-top: 10px;
+    }
+    .sol_sec8{
+      height: 1100px;
+    }
+    .sol_sec8_1{
+      width: 100%;
+      height: 150px;
+    }
+    .sol_sec8_1 img{
+      width: 150px;
+      height: 110px;
+    }
+    .sol_sec8_2{
+      width: 80%;
+      margin-top: -50px;
+      float: right;
+    }
+    .sol_sec8_3{
+     width: 100%;
+     height: 150px;
+    
+    }
+    .sol_sec8_3 img{
+      width: 150px;
+      height: 110px;
+      float: right;
+    }
+    .sol_sec8_4{
+      width: 80%;
+      margin-top: -50px;
+      float: left;
+    }
+    #abu_sec5_1{
+      width: 80%;
+      margin-left: 10%;
+    }
+    #abu_sec6{
+      height: 500px;
+    }
+   
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 500px) {
+  #abu_sec5_2{
+    width: 96%;
+    margin-left: 2%;
+    height: 250px;
   }
-  to {
-    transform: rotate(360deg);
+  .abu_sec4_1{
+    width: 90%;
+    margin-left: 5%;
   }
+    #sec3_1 button{
+        margin-left: 55%;
+        margin-top: 290px;
+      }
+      .sec5{
+        width: 90%;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 5%;
+      }
+      .sec5 img{
+        height: 250px;
+      }
+      .sec7{
+        width: 98%;
+        height: 1200px;
+        margin-top: 20px;
+        margin-left: 1%;
+      }
+      .sec7_1{
+        width: 90%;
+        margin-top: 20px;
+        height: 400px;
+        margin-left: 5%;
+      }
+      .sec7_2{
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 400px;
+        
+      }
+      .sec7_2 button{
+        margin-left: 30%;
+        margin-top: 40px;
+      }.sec8{
+        width: 98%;
+        height: 1300px;
+        margin-left: 1%;
+        margin-top: 40px;
+      }
+      .sec8_1{
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+       }
+       .sec8_2{
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+       }
+       .sec8_3{
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+       }
+       .sec8_4{
+        width: 80%;
+        height: 300px;
+       margin-left: 10%;
+      }
+      #col2{
+        margin-left: 25%;
+      }
+      .con_sec3 p{
+        margin-left: 15%;
+      }
+      .pub_sec4{
+        height: 730px;
+      }
+      .pub_sec4_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 350px;
+      }
+      .pub_sec4_2{
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+      }
+      .pub_sec4_2 h1{
+        margin-top: 0;
+       
+      }
+      .pub_sec5{
+       
+        height: 760px;
+        margin-top: -40px;
+       }
+       .pub_sec5_1{
+          width: 90%;
+          height: 330px;
+          text-align: left;
+          margin-left: 5%;
+       }
+       .pub_sec5_1 h1{
+        margin-top: 0;
+
+       }
+       .pub_sec5_1 p{
+        margin: 40px 0;
+       }
+       .pub_sec5_2{
+        width: 90%;
+        margin-left: 5%;
+       
+       }
+       .pub_sec6{
+        height: 1000px;
+       }
+       .pub_sec6_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 280px;
+        margin-top: 20px;
+      }
+      .pub_sec6_1 img{
+        margin-left: 40%
+      } 
+      .pub_sec7{
+        height: 650px;
+      }
+      .pub_sec7_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+      }
+      .pub_sec7_1 img{
+        margin-left: 38%;
+      }
+      .pub_sec7_2{
+        width: 90%;
+        height: 300px;
+        margin-left: 5%;
+        margin-top: 5px;
+      }
+      .pub_sec8{
+        height: 570px;
+      }
+      .pub_sec8 button{ 
+        margin-left: 25%;
+      }
+      #ima{
+        height: 320px;
+      }
+      #ima img{
+        width: 45%;
+      }
+      .gam_sec1{
+        height: 200px;
+      }
+      .gam_sec1_img img{
+        margin-top: 55px;
+        width: 28%;
+      }
+      .gam_sec3_img{
+ 
+        width: 100%;
+        margin-left: 0%;
+      }
+      .gam_sec5{
+        height: 750px;
+      }
+      .gam_sec5_2{
+        height: 450px;
+      }
+      .gam_sec6{
+        height: 1330px;
+      }
+      .gam_sec6_1{
+        width: 96%;
+        margin-left: 2%;
+        height: 350px;
+      }
+      .gam_sec6_1 h1{
+        margin: 10px 0;
+      }
+      .gam_sec6_1 h2{
+        margin: 10px 0;
+      }
+      .gam_sec6_1 p{
+        margin: 0cqh;
+      }
+      .gam_sec6_2{
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+      }
+      .gam_sec6_3{
+        margin-top: 10px;
+      }
+      .gam_sec6_3_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+        margin-top: 10px;
+      }
+      .gam_sec10{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+        height: 250px;
+      }
+      .gam_sec11{
+        height: 1360px;
+      }
+      .gam_sec11 img{
+        width: 86%;
+        margin-top: 20px;
+        height: 250px;
+        margin-left: 7%;
+      }
+      .sol_sec1{
+        height: 820px;
+      }
+      .sol_sec1_1{
+        width: 96%;
+  
+        margin-left: 2.5%;
+        height: 430px;
+      }
+      .sol_sec3{
+        height: 370px;
+      }
+      .sol_sec3_1{
+        height: 250px;
+      }
+      .sol_sec3_1_img{
+        width: 45%;
+        margin-left: 2.5%;
+       margin-top: 10px;
+      }
+      .sol_sec8{
+        height: 1370px;
+      }
+      .sol_sec8_2{
+        height: 350px;
+      }
+      .sol_sec8_4{
+        height: 350px;
+      }
+}
+
+@media screen and (max-width: 410px) {
+  #abu_sec5_1{
+    width: 90%;
+    margin-left: 5%;
+  }
+    #sec3_1 button{
+        margin-left: 25%;
+        margin-top: 310px;
+      }
+    .sec3_2_1{
+        width: 100%;
+        height: 110px;
+      margin-top: 5px;
+      margin-left: 20px;
+      text-align: center;
+      text-align-last: center;
+      }
+      .sec3_2_1 h1{
+        font-weight: 400;
+      }
+      .sec4{
+        width: 90%;
+        height: 200px;
+       margin-top: 30px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+      }
+      .sec6{
+        width: 98%;
+        height: 770px;
+        margin-left: 1%;
+        margin-top: 20px;
+      }
+      .sec6_1{
+        width: 30%;
+        height:200px ;
+        margin: 20px 0 0 50px;
+        float: left;
+      }
+      .sec6_2{
+        width: 30%;
+        height:200px ;
+        margin: 20px 0 0 50px;
+        float: left;
+      }
+
+
+       /*career pagr responsive style*/
+       #col2{
+        margin-left: 10%;
+      }
+      .pub_sec3{
+      height: 300px;
+      text-align: justify;
+      }
+      .pub_sec7_1 img{
+        margin-left: 30%;
+      }
+      .pub_sec8 button{ 
+        margin-left: 18%;
+      }
+      #ima {
+        width: 80%;
+        margin-left: 10%;
+      }
+      .gam_sec1{
+        height: 180px;
+      }
+      .gam_sec1_img img{
+        margin-top: 55px;
+        width: 28%;
+      }
+      .gam_sec5{
+        height: 790px;
+      }
+      .gam_sec5_2{
+        height: 510px;
+      }
+      .gam_sec7{
+        height: 450px;
+      }
+      .sol_sec4{
+        height: 900px;
+       
+      }
+      .sol_sec4_1{
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+        margin-top: 10px;
+      }
+      .sol_sec6{
+        height: 870px;
+      }
+      .sol_sec6_1{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+      }
+      .sol_sec6_2{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+      }
+      .sol_sec7{
+        width: 90%;
+        margin-left: 5%;
+        height: 250px;
+      }
+      .sol_sec9{
+        height: 860px;
+      }
+      .sol_sec9_1{
+        width: 90%;
+        margin-left: 5%;
+      }
+      .sol_sec10_1{
+        width: 90%;
+        margin-left: 5%;
+      }
+      .sec3_2{
+        margin-top: 30px;
+      }
+      .sec3_2_1 img{
+        margin-left: 0cm;
+      }
+      .slider{
+        width: 96%;
+        height: 980px;
+       clear: both;
+        margin-left: 2%;
+      }
+    .slider img{
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 20px;
+      }
+}
+
+@media screen and (max-width: 370px) {
+  .sol_sec6{
+    height: 940px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+   
+      .section2{
+        width: 90%;
+      min-height: 150px; 
+        margin-top: 40px;
+        margin-left: 5%;
+       clear: both;
+       margin-bottom: 20px;
+      }
+      .section3{
+        width: 100%;
+        height: 1000px;
+        margin-top:10px ;
+      }
+      .sec3_2_1{
+        width: 100%;
+        height: 200px;
+       margin-top: 5px;
+       margin-left: 20px;
+      }
+      .sec3_2_1 img{
+        clear: both;
+        margin-left: 33%;
+        
+      }
+      .sec3_2_1 h1{
+        margin-top: 50px;
+        clear: both;
+        font-weight: 400;
+      }
+      .sec3_2_1 p{
+        width: 90%;
+        margin-left: 5%;
+      }
+      .sec6 button{
+        padding: 10px ;
+        width: 180px;
+        margin-left: 20%;
+        font-weight: 700;
+        margin-top: 30px;
+      }
+      .sec7_2{
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+        height: 460px;
+        
+      }
+      .sec8{
+        width: 98%;
+        height: 1370px;
+        margin-left: 1%;
+        margin-top: 40px;
+      }
+      .sec8_1{
+        width: 80%;
+        height: 400px;
+        overflow: hidden;
+       }
+       .sec8_1 img{
+          width: 90%;
+          margin-left: 5%;
+       }
+       .sec8_2{
+        width: 80%;
+        height: 300px;
+       }
+       .sec8_3{
+        width: 80%;
+        height: 300px;
+       }
+       .sec8_4{
+        width: 80%;
+        height: 300px;
+      }
+      
+
+       /*career pagr responsive style*/
+      
+       .pub_sec1_1 button{
+        margin-top: 0;
+       }
+       .pub_sec6_1 img{
+        margin-left: 35%
+      } 
+      .pub_sec8 button{ 
+        margin-left: 14%;
+      }
+      .gam_sec5{
+        height: 860px;
+      }
+      .gam_sec5_2{
+        height: 600px;
+      }
+      .gam_sec9{
+        height: 800px;
+      }
+      .gam_sec9_1{
+        height: 500px;
+      }
+      .gam_sec12{
+        height: 300px;
+      }
+      .gam_sec12 button{
+        margin-top: 250px;
+        margin-left: 30%;
+      }
+      .sol_sec1{
+        height: 900px;
+      }
+      .sol_sec1_1{
+        width: 96%;
+          text-align: justify;
+        margin-left: 2.5%;
+        height: 500px;
+      }
+      .sol_sec3{
+        height: 480px;
+      }
+      .sol_sec3_1{
+        height: 350px;
+      }
+      .sol_sec3_1_img{
+        width: 90%;
+        margin-left: 5%;
+       margin-top: 10px;
+      }
+      .sol_sec10{
+        height: 370px;
+      }
 }
