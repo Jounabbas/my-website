@@ -7,7 +7,7 @@ const About = () => {
     <>
       <div id="abu_sec1">
         <div className="abu_sec1_1" data-aos="fade-down">
-          <h1>We Give Wings To Your Dreams</h1>
+          <h1>We Gives Wings To Your Dreams</h1>
           <p>
             Game District longs for fresh & young minds who can mould their
             approaches with the changing challenges of the digital industry.
