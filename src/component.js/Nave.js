@@ -22,9 +22,9 @@ const Nave = () => {
             </div>
             <div>
                 <ul className={men?"menu":""}> 
-                    <li><NavLink to='/'>HOMEs</NavLink></li>
-                    <li><NavLink to='/about'>ABOUTs</NavLink></li> 
-                    <li><NavLink to='/solution'>SOLUTIONs</NavLink></li>                                        
+                    <li><NavLink to='/'>HOME</NavLink></li>
+                    <li><NavLink to='/about'>ABOUT</NavLink></li> 
+                    <li><NavLink to='/solution'>SOLUTION</NavLink></li>                                        
                     <li><NavLink to='/publishing'>PUBLISH</NavLink></li>
                     <li><NavLink to='/games'>WHY GAMES</NavLink></li>
                     <li><NavLink to='/career'>CAREER</NavLink></li>
