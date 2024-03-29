@@ -12,7 +12,7 @@ const Slider = () => {
     desktop: {
      breakpoint: { max: 3000,min: 300},
       items: 1,
-      slidesToSlide: 1// optional, default to 1.
+      slidesToSlide: 1
     },
   }
   return ( 
@@ -20,8 +20,8 @@ const Slider = () => {
     <Carousel className='Carousel' autoPlay="true" responsive={responsive}
   autoPlaySpeed={3000}   showDots={true}   infinite={"true"}>
       <div style={{margin:'10px'}}><img src={ slider_pic} alt="" /></div>
-      <img src={slider_pic_1} alt="" />
-      <img src={slider_pic_2} alt="" />
+      <img src={slider_pic_1} alt="..." />
+      <img src={slider_pic_2} alt="..." />
     </Carousel>
    </>
   );

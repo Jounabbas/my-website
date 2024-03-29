@@ -15,7 +15,7 @@ import Solution from './component.js/Solution';
 import Games from './component.js/Games';
 import Nave from './component.js/Nave'
 import Team from './component.js/Team';
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {

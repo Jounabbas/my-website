@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(251, 255, 248);
-
+overflow-x: hidden;
   } 
   .section1{
     margin-top: 10px;
