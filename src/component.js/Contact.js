@@ -7,7 +7,7 @@ const Contact = () => {
 
   //
   const to="ajoun0176@gmail.com"
-  const [formData, setFormData] = useState({
+  const [formData , setFormData] = useState({
       name: '',
       id: '',
       company_name: '',
@@ -37,15 +37,15 @@ const Contact = () => {
       // Open the mail client with the mailto link
       window.location.href = mailtoLink;
     };
-  return (
+  return ( 
     <>
-      <div className="row" >
-        <div className="col" id="con_sec1" data-aos="zoom-in-right">
+  
+        <div className="col" id="con_sec1" >
           <p>it's hard not to find your</p>
           <h1>PARTNER</h1>
         </div>
-      </div>
-      <div className="row mx-3 " id="" data-aos="flip-right">
+
+      <div className="row mx-3 " id="" >
         <div className="col-md-6" style={{ marginTop: "-40px" }}>
           <Link target="_blank" to="https://www.facebook.com/jabirsons">
             <img
@@ -76,13 +76,16 @@ const Contact = () => {
               className="mx-3"
               src="https://www.gamedistrict.co/assets/img/youtube_icon.png"
               alt=""
-            />{" "}
+            />{" "} 
           </Link>
+          <div className='sec_last' style={{width:"80%",height:"500px"}}>
+          <iframe style={{width:"120%",minHeight:"500px",marginBottom:"40px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13698.323880709453!2d70.923624117425!3d30.87040476014194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39250909f3358519%3A0x4604824a85132fa6!2sJaman%20Shah%2C%20Layyah%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1707898751181!5m2!1sen!2s"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" ></iframe>
+          </div>
         </div>
-        <div data-aos="slide-left"
+        <div 
           className="col-md-6"
           id="con_sec3"
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: "white",marginTop:"30px"  }}
         >
           <p>
             Write Something About Your Project So We Can Get Back To You With A
@@ -111,7 +114,7 @@ const Contact = () => {
               name=""
               id=""
               cols="30"
-              rows="10"
+              rows="5"
               placeholder="project detail"
             ></textarea>
             <input

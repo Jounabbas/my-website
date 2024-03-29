@@ -1,25 +1,23 @@
 import React from "react";
 import Footer from "./Footer";
+import sol_pic1 from "./solution pics/24.png"
+import sol_pic2 from "./solution pics/25.png"
 
 const Solution = () => {
   return (
     <>
       <div className="sol_sec1">
-        <div className="sol_sec1_1"  data-aos="zoom-in-left">
-          <h1>Custom Solutions for your game app</h1>
+        <div className="sol_sec1_1" >
+          <h1>Crafted Solutions Designed Exclusively for Your Gaming App.</h1>
           <p>
-            This booming gaming industry requires businessmen to explore &
-            collaborate with other ventures and dictate their future more
-            firmly. Latest technologies like artificial intelligence (AI) and
-            virtual reality (VR) create a futuristic impact & really captures
-            the eye of digitally prone users. Game District is always on toes to
-            traverse every possible opportunity to collaborate, innovate &
-            invent complex ideas & their contrary execution for the users.
+          In the thriving gaming industry, entrepreneurs must venture into collaborations, steering their future with resilience. 
+Cutting-edge technologies such as artificial intelligence (AI) and virtual reality (VR) cast a futuristic impact, captivating digitally savvy users. 
+At Jabir Sons, we are always proactive, seizing every opportunity to collaborate, innovate, and bring intricate ideas to life for our users.
           </p>
           <button>LEARN MORE</button>
         </div>
  
-        <div className="sol_sec1_2" data-aos="zoom-in-right">
+        <div className="sol_sec1_2">
           <img
             src="https://www.gamedistrict.co/assets/img/solutions_right.png"
             alt=""
@@ -27,7 +25,7 @@ const Solution = () => {
         </div>
       </div>
 
-      <div className="sol_sec2" data-aos="zoom-in-right">
+      <div className="sol_sec2" >
         <div className="sol_sec2_img">
         <img
           src="https://www.gamedistrict.co/assets/img/solutions_icon_1.png"
@@ -53,11 +51,11 @@ const Solution = () => {
       </div>
 
       <div className="sol_sec3" >
-        <h2 data-aos="slide-down">
+        <h2>
           Develop a better and secure <br /> experience for your users
         </h2>
         <div className="sol_sec3_1" >
-          <div className="sol_sec3_1_img" data-aos="slide-right">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_1.png"
@@ -73,7 +71,7 @@ const Solution = () => {
               />
             </div>
           </div>
-          <div className="sol_sec3_1_img" data-aos="slide-down">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_4.png"
@@ -89,7 +87,7 @@ const Solution = () => {
               />
             </div>
           </div>
-          <div className="sol_sec3_1_img" data-aos="slide-left">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_7.png"
@@ -109,7 +107,7 @@ const Solution = () => {
       </div>
 
       <div className="sol_sec4">
-        <div className="sol_sec4_1" data-aos="slide-right" >
+        <div className="sol_sec4_1"  >
           <h4>Required Strategy</h4>
           <ul>
             <li>Work Breakdown Structure</li>
@@ -119,7 +117,7 @@ const Solution = () => {
             <li>Use Cases</li>
           </ul>
         </div>
-        <div className="sol_sec4_1" data-aos="slide-up">
+        <div className="sol_sec4_1">
           <h4>Design & Development</h4>
           <ul>
             <li>Low-Fi Design</li>
@@ -130,7 +128,7 @@ const Solution = () => {
             <li>Code Documentation</li>
           </ul>
         </div>
-        <div className="sol_sec4_1" data-aos="slide-left">
+        <div className="sol_sec4_1">
           <h4>Delivery & Support</h4>
           <ul>
             <li>Release Management</li>
@@ -145,17 +143,17 @@ const Solution = () => {
 
       <div id="about_sec5">
         <div id="about_sec5_1" >
-          <h2 data-aos="slide-right">
+          <h2 >
             Ready to start your project
             <span style={{ color: "yellow" }}>?</span>
           </h2>
-          <button data-aos="slide-left">LETS START</button>
+          <button>LETS START</button>
         </div>
       </div>
 
       <div className="sol_sec6">
-        <h1 data-aos="slide-down">Businesses That Trust Us</h1>
-        <div className="sol_sec6_1" data-aos="slide-right">
+        <h1>Businesses That Trust Us</h1>
+        <div className="sol_sec6_1" >
           <img
             src="https://www.gamedistrict.co/assets/img/startups_icon.jpg"
             alt=""
@@ -168,7 +166,7 @@ const Solution = () => {
           </ul>
         </div>
 
-        <div className="sol_sec6_2" data-aos="slide-up">
+        <div className="sol_sec6_2" >
           <img
             src="https://www.gamedistrict.co/assets/img/smbs_icon.jpg"
             alt=""
@@ -181,7 +179,7 @@ const Solution = () => {
           </ul>
         </div>
 
-        <div className="sol_sec6_2" data-aos="slide-left">
+        <div className="sol_sec6_2">
           <img
             src="https://www.gamedistrict.co/assets/img/enterprise_icon.jpg"
             alt=""
@@ -194,40 +192,46 @@ const Solution = () => {
           </ul>
         </div>
       </div>
-      <div className="sol_sec7" data-aos="slide-right">
+      <div className="sol_sec7">
         <h3>We Serve The Inception</h3>
         <p>
-          We publish your project in the best manner covering all the important
-          aspects that boosts your game reach and ultimately gives you better
-          results. Your game has to be attractive with the potential to become a
-          leading venture.
+        We showcase your project comprehensively, 
+        highlighting crucial aspects to enhance your game's visibility and deliver optimal results.
+        Your game deserves a captivating presentation with the potential to emerge as a leading venture.
         </p>
       </div>
 
       <div className="sol_sec8">
         <div className="sol_sec8_1">
-            <img data-aos="flip-right" src="https://www.gamedistrict.co/assets/img/icon_inception_1.jpg" alt="" />
+            <img src="https://www.gamedistrict.co/assets/img/icon_inception_1.jpg" alt="" />
         </div>
-        <div className="sol_sec8_2" data-aos="slide-left">
+        <div className="sol_sec8_2" >
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>Leveraging automated analysis of a software application's artifacts and extracting metadata structures significantly enhances app store visibility, 
+           ensuring optimal reach and engagement with the right users. This strategic approach proves essential for maximizing your project's impact in the 
+           competitive app marketplace.</p>
         </div>
 
         <div className="sol_sec8_3">
-            <img data-aos="flip-left" src="https://www.gamedistrict.co/assets/img/icon_inception_2.jpg" alt="" />
+            <img  src="https://www.gamedistrict.co/assets/img/icon_inception_2.jpg" alt="" />
         </div>
-         <div className="sol_sec8_4" data-aos="slide-right">
+         <div className="sol_sec8_4">
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>In the realm of game design, the usability of the interface plays a pivotal role, determining the triumph or downfall of a game or app. 
+                Successful ventures prioritize meticulous planning and effort in crafting a seamlessly intuitive UI & UX, recognizing it as a key element
+                contributing to their overall success in the competitive landscape.
+</p>
         </div>
        
        
         <div className="sol_sec8_1">
-            <img data-aos="flip-left" src="https://www.gamedistrict.co/assets/img/icon_inception_3.jpg" alt="" />
+            <img  src="https://www.gamedistrict.co/assets/img/icon_inception_3.jpg" alt="" />
         </div>
-        <div className="sol_sec8_2" data-aos="slide-left">
+        <div className="sol_sec8_2" >
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>Effective marketing stands as a cornerstone for the success of any business.
+            Propagating product awareness through Google and in-app advertisements establishes a robust presence,
+            elevating brand image and enhancing the appeal of a purchase.</p>
         </div>
 
         
@@ -237,28 +241,28 @@ const Solution = () => {
       </div>
 
       <div className="sol_sec9">
-            <h2 data-aos="slide-down">Featured Work</h2>
+            <h2 >Featured Work</h2>
             <div className="sol_sec9_1">
-                <img data-aos="slide-right" src="https://www.gamedistrict.co/assets/img/feature_work_slide_1.jpg" alt="" />
+                <img src="https://www.gamedistrict.co/assets/img/feature_work_slide_1.jpg" alt="" />
             </div>
             <div className="sol_sec9_1">
-                <img data-aos="slide-up" src="https://www.gamedistrict.co/assets/img/feature_work_slide_2.jpg" alt="" />
+                <img  src="https://www.gamedistrict.co/assets/img/feature_work_slide_2.jpg" alt="" />
             </div>
             <div className="sol_sec9_1">
-                <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/feature_work_slide_3.jpg" alt="" />
+                <img  src="https://www.gamedistrict.co/assets/img/feature_work_slide_3.jpg" alt="" />
             </div>
       </div>
 
       <div className="sol_sec10">
-        <div className="sol_sec10_1" data-aos="slide-up">
+        <div className="sol_sec10_1" >
             <h3>We Know All The Techs</h3>
             <p>Game District is always on toes to traverse every possible opportunity to collaborate</p>
         </div>
 
-        <div className="sol_sec10_2" data-aos="zoom-out-center">
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_1.png" alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_2.png" alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_3.png" alt="" />
+        <div className="sol_sec10_2" >
+            <img  src={sol_pic1} alt="" />
+            <img src={sol_pic2} alt="" />
+           
         </div>
        
       </div>

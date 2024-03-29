@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -171,5 +172,143 @@
      }
      .logo2{
          margin-left: 20px;
+=======
+body{
+    margin: 0%;
+    padding: 0cqb;
+    box-sizing: border-box;
+ }
+ .active{
+     color: yellow;
+     text-decoration: underline;
+ }
+ .header{
+     width: 100%;
+     background-color: rgb(6, 6, 6);
+     margin-top: 0;
+ }
+ nav{
+     width: 96%;
+     display: flex;
+     height: 80px;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 2%;
+ }
+ .logo{
+     margin-left: 0%;
+ }
+ .logo img{
+     width: 55px;
+     height: 55px;
+    border-radius: 27.5px;
+ }
+ nav ul{
+ 
+     display: flex;
+     margin-top: 10px;
+    
+ }
+ nav ul li{
+     list-style: none;
+     padding: 10px 15px;
+     margin-top: 10px;
+     margin-left: 15px;
+    
+ }
+ 
+ nav ul li a{
+     font-weight: bold;
+     text-decoration: none;
+     color: rgb(255, 252, 252);
+ }
+ nav ul li a:hover{
+     color: yellow;
+     text-decoration:  underline;
+     
+ }
+ nav button{
+     height: 50px;
+     text-align: center;
+     width: 150px;
+     margin-right: 3%;
+     border: 0cqi;
+     background-color: yellow;
+     font-weight: bold;
+     border-radius: 8px;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     z-index:  1;
+ }
+ .burger{
+     width: 40px;
+     height: 35px;
+     position: absolute;
+     top: 20px;
+     border: 2px solid rgb(253, 252, 252);
+     right: 6%;
+     display: none;
+     align-items: center;
+     border-radius: 5px;
+     flex-direction: column;
+     justify-content: space-around;
+     cursor: pointer;
+ }
+ .burger span{
+     width: 80%;
+     margin-left: 5%; 
+     height: 3px;
+     border-radius:5px;
+     background-color: rgb(251, 249, 249);
+ }
+ @media screen and (max-width:1175px) {
+     .burger{
+         display: flex;
+     }
+     nav{
+         display: block;
+         flex-direction: column;
+         justify-content: start;
+         align-items: start;
+      
+     }
+    nav img{
+       margin-top: 20px;
+     }
+     nav ul{
+         display: flex;
+         flex-direction: column;
+         position: relative;
+         width: 120%;
+         margin-left: -30px;
+         margin-top: 0px;
+         text-align: center;
+         background-color: black;
+ 
+         z-index:  1;
+     }
+     .menu{
+         display: none;
+         height: 270px;
+     }
+     nav ul li{
+         margin-left: -220px;
+        
+         padding: 5px 8px;
+     }
+     .btnn{
+        width: 120%;
+        margin-left: -30px;
+        background-color: rgb(6, 6, 6);
+        margin-top: -17px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index:  1;
+        display: none;
+     }
+     .btnn button{
+         margin-left: -160px;
+>>>>>>> c8bffc255306a10e9ca174e58e041b9cdb5fa851
      }
  }
