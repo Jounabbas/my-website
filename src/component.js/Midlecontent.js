@@ -16,7 +16,7 @@ const Midlecontent = () => {
           <div className="col-md-4">
             <img data-aos="flip-right"
               src="https://www.gamedistrict.co/assets/img/global_icon_contact_1.jpg"
-              alt=""
+              alt="..."
             />
           </div>
           <div className="col-md-4 image">
