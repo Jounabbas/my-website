@@ -58,49 +58,51 @@ const About = () => {
         </div>
       </div>
 
-      <div className="row mx-5" style={{ backgroundColor: "rgb(250,250,250)" }}>
-        <div className="col-md-3 "  >
-          <img style={{width:"220px",height:"220px",marginLeft:"30px"}}
+      <div className="abu_sec3" >
+        <div className="abu_sec3_1"  >
+          <img 
             src={pic1}
             alt=""
           />
         </div>
-        <div className="col-md-3" >
+        <div className="abu_sec3_2" >
           <h1 style={{ fontWeight: "bold" }}>01</h1>
           <h3 style={{ fontWeight: "700" }}>Professionalism</h3>
           <p>
           Jabir Sons is in search of dynamic and youthful innovators, ready to mold their approaches amidst the evolving challenges of the digital industry.
           </p>
         </div>
-        <div className="col-md-3 " >
+        <div className="abu_sec3_3" >
           <img 
-          style={{width:"300px",height:"300px",margin:"-20px 0 0 30px"}}
+          
             src={pic2}
             alt=""
           />
         </div>
-        <div className="col-md-3" >
+        <div className="abu_sec3_4" >
           <h1 style={{ fontWeight: "bold" }}>02</h1>
           <h3 style={{ fontWeight: "700" }}>Love For Work</h3>
           <p>
           Jabir Sons eagerly invites the next generation of talent, urging young minds to shape their strategies in tandem with the ever-changing challenges of the digital industry.
           </p>
         </div>
-
-        <div className="col-md-3 "  >
+      </div>
+      <div className="extra_div">
+        <div className="abu_sec3_5 "  >
           <h1 style={{ fontWeight: "bold", textAlign: "right" }}>03</h1>
           <h3 style={{ fontWeight: "700", textAlign: "right" }}>Enthusiasm</h3>
           <p>
           At the core of our mission, Jabir Sons seeks the ingenuity of young minds to shape their approaches amidst the dynamic challenges of the digital industry.
           </p>
         </div>
-        <div className="col-md-3"  >
-          <img  style={{width:"220px",height:"220px"}}
+        
+        <div className="abu_sec3_6"  >
+          <img  
             src={pic3}
             alt=""
           />
         </div>
-        <div className="col-md-3 "  >
+        <div className="abu_sec3_7"  >
           <h1 style={{ fontWeight: "bold", textAlign: "right" }}>04</h1>
           <h3 style={{ fontWeight: "700", textAlign: "right" }}>
           Exceeding Limits
@@ -109,14 +111,14 @@ const About = () => {
           Embracing innovation, Game Haven eagerly welcomes young minds to sculpt their strategies amid the evolving challenges of the digital frontier.
           </p>
         </div>
-        <div className="col-md-3"  >
-          <img style={{width:"210px",height:"210px",marginLeft:"30px"}}
+        <div className="abu_sec3_8"  >
+          <img 
             src={pic4}
             alt=""
           />
         </div>
+      
       </div>
-
       <div className="abu_sec4 "  >
         <div className="abu_sec4_1">
           <img

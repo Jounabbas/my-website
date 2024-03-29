@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(251, 255, 248);
-overflow-x: hidden;
+
   } 
   .section1{
     margin-top: 10px;
@@ -890,6 +890,41 @@ overflow-x: hidden;
     margin-top: 10px;
     text-align: center;
    
+  }
+  .abu_sec3{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    background-color: rgb(250,250,250);
+    grid-template-columns: .5fr 1fr .5fr 1fr;
+  }
+  .abu_sec3_1 img{
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+  }
+  .extra_div{
+    background-color: rgb(250,250,250);
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr .5fr;
+  }
+  .abu_sec3_6 img{
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+  }
+  .abu_sec3_8 img{
+    width: 180px;
+    height: 180px;
+  
+    margin-left: 30px;
+  }
+  .abu_sec3_3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
   }
   .abu_sec4{
     width: 100%;

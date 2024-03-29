@@ -1,5 +1,15 @@
-
+@media screen and (max-width: 1300px) {
+  .abu_sec3{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .extra_div{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
 @media screen and (max-width: 1055px) {
+
   .con_sec3 p{
     margin-left: 30%;  
   }
@@ -11,6 +21,21 @@
   }
 }
 @media screen and (max-width: 990px) {
+  .abu_sec3{
+    width: 100%;
+    margin-left: 0%;
+   
+  }
+  .abu_sec3 p{
+    margin-right: 10px;
+  }
+  .extra_div{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .extra_div p{
+    margin-left: 10px;
+  }
     .section2{
         width: 90%;
        height: 180px; 
@@ -107,6 +132,12 @@
 
 
 @media screen and (max-width: 850px) {
+  .abu_sec3{
+    grid-template-columns: .5fr 1fr;
+  }
+  .extra_div{
+    grid-template-columns: 1fr .5fr;
+  }
   .car_sec2{
     grid-template-columns: 2fr 3.5fr .5fr;
     height: 250px;
@@ -983,6 +1014,33 @@
 }
 
 @media screen and (max-width: 410px) {
+  .abu_sec3{
+    grid-template-columns:  1fr;
+    
+  }
+  .abu_sec3 h1{
+    margin-left: 20px;
+  }
+  .abu_sec3 h3{
+    margin-left: 20px;
+  }
+  .abu_sec3 p{
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .extra_div{
+    grid-template-columns: 1fr;
+  }
+  .extra_div h1{
+    margin-right: 30px;
+  }
+  .extra_div h3{
+    margin-right: 30px;
+  }
+  .extra_div p{
+    text-align: justify;
+    margin-right: 30px;
+  }
   .pub_sec1{
     height: 900px;
   }
