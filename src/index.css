@@ -1,1627 +1,1582 @@
 body {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-background-color: rgb(251, 255, 248);
-overflow-x: hidden;
-
-}
-.section1{
-  margin-top: 20px;
-  width: 98%;
-  height: 400px;
-  margin-left: 1%;
-}
-#carouselExample img{
-  height: 400px;
-}
-#con1{
-  width: 39%;
-  height: 450px;
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-#con1 img{
-  width:100%;
-  height: 400px;
-}
-
-#con2{
-  width: 60%;
-  height: 400px;
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-#img-con{
-  width: 100%;
-  height: 150px;
- 
-}
-#img-con img{
-  width: 18%;
-  height: 150px;
-  margin-left: 2%;
-}
-#image1{
-  width: 150px;
-  height: 150px;
-  margin-left: 10px;
-}
-
-#con3{
-  width: 100%;
-  height: 200px;
-  margin: 10px 0 0 10px;
-  clear: both;
-}
-#con3 img{
-  width: 98%; 
-  height: 235px;
-}
-.slider{
-  width: 98%;
-  height: 300px;
- clear: both;
-  margin-top: 60px;
-  margin-left: 1%;
-}
-.slider img{
-  width: 32%;
-  height: 300px;
-  margin-left: 1%; 
-  border-radius: 10px;
-}
-.section2{
-  width: 55%;
- height: 150px; 
-  margin-top: 50px;
-  margin-left: 2%;
-}
-
-.section3{
-  width: 100%;
-  height: 350px;
-  margin-top:10px ;
-}
-#sec3_1{
-  width: 50%;
- height: 360px;
- margin-left: 2%;
-  float: left;
-  background-image: url("https://www.gamedistrict.co/assets/images/publish.jpg");
- background-repeat: no-repeat;
- background-position: start bottom;
- background-size:100% ;
-}
-#sec3_1 button{
-  background-color: rgb(253, 253, 4);
-   border-radius: 10px;
-  margin-left: 65%;
-  border: 0cap;
-  margin-top: 260px;
-  padding: 5px 10px 5px 10px;
-  font-weight: 600;
-}
-#sec3_1 button:hover{
-  background-color: black;
-  color: rgb(243, 243, 10);
-}
-.sec3_2{
-  float: left;
-  height: 350px;
-  width: 45%;
-}
-.sec3_2_1{
-  width: 100%;
-  height: 110px;
-margin-top: 5px;
-margin-left: 20px;
-}
-.sec3_2_1 img{
-  float: left;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(251, 255, 248);
   
-}
-.sec3_2_1 h1{
-  font-weight: 600;
-}
-.sec4{
-  width: 65%;
-  height: 150px;
- margin-top: 40px;
-  margin-top: 40px;
-  margin-left: 17.5%;
-}
-.sec4 h1{
-  text-align: center;
-  font-weight: bold;
-}
-.sec4 p{
-  font-weight: 600;
-  text-align: center;
-  margin: 20px;
-}
-.sec5{
-  width: 80%;
-  height: 200px;
-  margin-top: 20px;
-  margin-left: 10%;
-  box-shadow: -3px 3px 5px 0px rgba(82, 76, 76, 0.75);
-}
-.sec5 img{
-  width: 100%;
-  height: 200px;
-  box-shadow: 2px 2px 2px ;
-}
-.sec6{
-  width: 98%;
-  height: 300px;
-  margin-left: 1%;
- background-color: rgb(243,243,243);
-  margin-top: 20px;
-}
-.sec6_1{
-  width: 15%;
-  height:200px ;
-  margin: 20px 0 0 50px;
-  float: left;
-}
-.sec6_1 img{
-  margin-left: 30%;
-  margin-top: 20px;
-}
-.sec6_1 h1{
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-.sec6_1 p{
-  font-weight: bold;
-  text-align: center;
-}
-.sec6_2{
-  width: 15%;
-  height:200px ;
- 
-  margin-left: 20px;
-  margin-top: 20px;
-  float: left;
-}
-.sec6_2 img{
-  margin-left: 25%;
-  margin-top: 20px;
-}
-.sec6_2 h1{
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-.sec6_2 p{
-  font-weight: bold;
-  text-align: center;
-}
-.sec6 button{
-  padding: 10px ;
-  background-color: yellow;
-  border: 0cap;
-  border-radius: 8px;
-  width: 180px;
-  margin-left: 42%;
-  font-weight: 700;
-  margin-top: 30px;
-}
-.sec6 button:hover{
-  background-color: black;
-  color: yellow;
-}
-.sec7{
-  width: 96%;
-  height: 400px;
-  margin-top: 20px;
-  margin-left: 2%;
-}
-.sec7_1{
-  width: 30%;
-  height: 400px;
-  float: left;
-}
-.sec7_1 img{
-  width: 100%;
-  height: 400px;
-}
-.sec7_2{
-  width: 38%;
-  float: left;
-  margin: 0 1%;
-  height: 400px;
-  
-}
-.sec7_2 h1{
-  font-weight: bold;
-  text-align: center;
-  margin-top:30px ;
-}
-.sec7_2 p{
-  text-align: center;
-  margin: 15px;
-  font-weight: 700;
-}
-.sec7_2 button{
-  border: 0cqi;
-  width: 150px;
-  background-color: yellow;
-  padding: 10px;
-  border-radius: 8px;
-  font-weight: 700;
-  margin-left: 200px;
-  margin-top: 40px;
-}
-.sec7_2 button:hover{
-  background-color: black;
-  color: yellow;
-}
-.sec7_3{
-  width: 30%;
-  float: right;
-  height: 400px;
-  
-}
-.sec7_3 img{
-  width: 100%;
-  height: 400px;
-}
-.sec8{
-  width: 100%;
-  height: 400px;
-  margin-top: 40px;
-  background-color:rgb(40,40,40);
-}
-.sec8_1{
- width: 28%;
- height: 400px;
- color: white;
- float: left;
-}
-#logo_8{
-  width: 120px;
-  margin-top: 20px;
-  height: 90px;
-  margin-left: 30px;
-}
-.sec8 p{
-  margin-left: 40px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-.sec8 img{
-  width: 200px;
-  margin-left: 40px;
-}
-.sec8_2{
-  width: 23%;
-  height: 400px;
-  float: left;
-}
-.sec8 h3{
-  font-weight: 700;
-  text-align: start;
-  margin-top: 40px;
-  color: white;
-  text-decoration: underline;
-}
-.sec8 li{
-  list-style: none;
-  margin-top: 15px;
-  margin-left: -20px;
-  text-align: start;
-}
-.sec8 a{
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-}
-.sec8 a:hover{
-  color: yellow;
-  text-decoration: underline;
-}
-.sec8_3{
-  width: 24%;
-  height: 400px;
-  float: left;
-}
-.sec8_3 h3{
-  font-weight:700 ;
-  text-align: start;
-  color: white;
-  text-decoration: underline ;
-  margin-top: 40px;
-}
-.sec8_4{
-  width: 25%;
-  float: left;
-  height: 400px;
- 
-}
-.sec8_4 img{
-  width: 15px;
-  height: 15px;
-  margin-top: 20px;
-  margin-left: 0;
-margin-right: 10px;
-  float: left;
-}
-
-/*publishing file styling*/
-
-
-
-
-
-
-.pub_sec1{
-  width: 100%;
-  height: 450px;
-  background-color: rgb(246,246,246);
-}
-.pub_sec1_1{
-  width: 50%;
-  height: 380px;
-  margin:80px 10px;
- 
-  float:left;
-}
-.pub_sec1_1 h1{
-  font-weight: 700;
-}
-.pub_sec1_1 p{
-  margin-top: 20px;
-  text-align: justify;
-}
-
-.pub_sec1_1 button{
-  border: 0cap;
-  width: 190px;
-  padding: 10px;
-  background-color: yellow;
-  margin-left: 0px;
-  border-radius: 10px;
-  margin-top: 30px;
-  font-weight: 700;
-}
-.pub_sec1_1 button:hover{
-  background-color: black;
-  color: yellow;
-}
-.pub_sec1_2{
-  width: 45%;
-  height: 400px;
-  margin-top: 40px;
-  float: right;
-}
-.pub_sec1_2 img{
-  width: 100%;
-  height: 400px;
-}
-
-.pub_sec2{
-  width: 100%;
-  height: 400px;
-  margin-top: 100px;
-  clear: both;
-  background-color: rgb(245,245,245);
- 
-}
-.pub_sec2_1{
-  width: 40%;
-  height: 400px;
-  float: left;
-  margin-left: 5%;
-
-}
-.pub_sec2_1 img{
-  width: 70%;
-  height: 380px;
-  
-}
-.pub_sec2_2{
-  width: 50%;
-  height: 380px;
-  float: right;
-  margin-right: 2%;
-}
-.pub_sec2_2 h1{
-
-  color: yellow;
-  margin: 10% 20% 5% 0;
-  font-weight: 800;
-}
-.pub_sec2_2 h2{
-  font-weight: bold;
-}
-.pub_sec2_2 p{
-  text-align: justify;
-}
-.pub_sec2_2 img{
-  width: 200px;
-  margin-top: 30px;
-  margin-left:20%;
-  height: 150px;
-}
-.pub_sec3{
-  width: 57%;
-  height: 220px;
-  margin-top: 90px;
-  margin-left: 25%;
- 
-}
-.pub_sec3 h2{
-  font-weight: bold;
-  text-align: center;
-}
-.pub_sec3 p{
-  margin-top: 30px;
-  margin: 20px;
-  text-align: center;
-}
-.pub_sec4{
-  width: 100%;
-  height: 420px;
-  clear: both;
-  text-align: justify
-}
-.pub_sec4_1{
-  width: 30%;
-
-  height: 400px;
-  margin-top: 20px;
-  margin-left: 10%;
-  float: left;
-
-}
-.pub_sec4_1 img{
-  width: 100%;
-  height: 400px;
-  margin-top: -10px;
-}
-.pub_sec4_2{
-  width: 53%;
-  height: 380px;
-  margin-top: 20px;
-  margin-left: 3%;float: left;
- 
-}
-.pub_sec4_2 h1{
-  margin-top: 80px;
-  font-weight: bold;
-}
-.pub_sec4_2 p{
-  margin-top: 10px;
-}
-.pub_sec5{
-  width: 100%;
-  margin-top:0px ;
-  height: 400px;
-  clear: both;
-}
-.pub_sec5_1{
-  width: 50%;
-  height: 380px;
-  margin-top: 20px;
-  margin-left: 13%;
-  float: left;
-  text-align: right;
-}
-.pub_sec5_1 h1{
-  font-weight: bold;
-
-  margin-top: 60px;
-}
-.pub_sec5_1 p{
-
-  margin-left: 30px;
-  margin-top: 20px;
-}
-.pub_sec5_2{
-  width: 30%;
-  height: 380px;
-  margin-top: 20px;
- margin-left: 2%;
-  float: left;
- 
-}
-.pub_sec5_2 img{
-  width: 100%;
-  height: 380px;
-  margin-top: 20px;
-}
-.pub_sec6{
-  width: 100%;
-  height: 470px;
-  margin-top: 80px;
-  margin-bottom: 20px;
-
-}
-.pub_sec6 h1{
-  text-align: center;
-  font-weight: bold;
-  
-}
-.pub_sec6_1{
-  width: 30%;
-  height: 350px;
-  margin-top: 40px;
-  float: left;
-  margin-left: 3%;
-}
-.pub_sec6_1 img{
-  margin-left: 40%;
-}
-.pub_sec6_1 h4{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 10px;
-}
-.pub_sec6_1 p{
-  margin: 15px;
-  text-align: center;
-}
-.pub_sec7{
- width: 100%;
- height: 370px;
- margin-top: -20px;
- clear: both;
-}
-.pub_sec7_1{
-  width: 30%;
-  height: 350px;
-  float: left;
-  margin-left: 15%;
-}
-.pub_sec7_1 img{
-  margin-left: 35%;
-}
-.pub_sec7_1 h4{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 10px;
-}
-.pub_sec7_1 p{
-  margin: 15px;
-  text-align: center;
-}
-.pub_sec7_2{
-  width: 30%;
-  height: 350px;
-  float: left;
-  margin-left: 5%;
-}
-.pub_sec7_2 img{
-  margin-left: 40%;
-}
-.pub_sec7_2 h4{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 10px;
-}
-.pub_sec7_2 p{
-  margin: 15px;
-  text-align: center;
-}
-.pub_sec8{
-  width: 100%;
-  height: 440px;
-  margin-top: 20px;
-  background-color: rgb(241, 241, 131);
-  border:  4px rgb(241, 241, 131) solid;
+  } 
+  .section1{
+    margin-top: 10px;
+    width: 98%;
+    height: 550px;
+    margin-left: 1%;
   }
-.pub_sec8 h1{
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-#ima{
-  width: 60%;
- margin-left: 20%;
- margin-top: 40px;
-}
-#ima img{
- margin-left:2% ;
- width: 30%;
- height: 150px;
-}
-.pub_sec8 button{
-  border: 0cap;
-  background-color: yellow;
-  width: 250px;
-  margin-left: 37%;
-  padding: 10px;
-  margin-top: 40px;
-  font-weight: 700;
-  border-radius: 10px;
-}
-
-.pub_sec8 button:hover{
-  background-color: black;
-  color: yellow;
-}
-/* career file styling start*/
-
-
-.car_sec1{
-  width: 100%;
-  height: 250px;
-}
-.car_sec1 img{
-  width: 100%;
-  height: 250px;
-}
-#col h2{
-  font-weight: 700;
-}
-#col{
-  text-align: justify;
-}
-#col2 button{
-  border: 0cap;
-  width: 150px;
-  background-color: yellow;
-  padding: 8px;
-  font-weight: bold;
-  margin: 20px 40px;
-  border-radius: 8px;
-}
-#col2 button:hover{
-  background-color: black ;
-  color: yellow;
-}
-hr{
-  height: 2px;
-  background-color: black;
-}
-.text{
-  font-weight: bold;
-}
-.btn{
-  border: 0cap;
-  background-color: black;
-  color: yellow;
-  font-weight: bold;
-  width: 350px;
-  padding: 10x;
-  border-radius: 8px;
-
-}
-.btn:hover{
-  background-color: yellow;
-  color: black;
-}
-h2{
-  font-weight: 700;
-}
-.btn2{
-  border: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: yellow;
-  border-radius: 8px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.btn2:hover{
-  background-color: black;
-  color: yellow;
-}
-#pic{
-  width: 100%;
-  height: 100vh;
-}
-input{
-  border-radius: 5px;
-  border: 1px black solid;
-  height: 40px;
-}
-#submit{
-  width: 100%;
-  background-color: yellow;
-  padding: 8px;
-  border-radius: 10px;
-  border: 0cap;
-  font-weight: 700;
-}
-#submit:hover{
-  background-color: black;
-  color: yellow;
-}
-#con_sec1{
-  background-image: url("https://www.gamedistrict.co/assets/img/contact_bg.jpg");
-  background-size: cover;
-  height: 400px;
-}
-#con_sec1 p{
-  margin-top: 200px;
-  margin-left: 30px;
-}
-#con_sec1 h1{
-  margin-left: 20px;
-  font-weight: bold;
-}
-#col7{
-  background-color: rgb(244, 238, 238);
-  margin-top: -100px;
-  border-radius: 10px;
-}
-#col7 p{
-  font-weight: bold;
-}
-#upload{
-  border: 0cap;
-  background-color: yellow;
-  padding: 10px;
-  font-weight: 700;
-  border-radius: 10px;
-}
-#upload:hover{
-  background-color: black;
-  color: yellow;
-}
-#pics img{
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 30px;
-}
-#con_sec3{
-
-  box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
-  min-height: 780px;
-  margin-bottom: 20px;
-  margin-top: -130px;
- }
-.con_sec3 img{
-  width: 60%;
-  margin-left: 20%;
-  height: 300px;
-}
-.con_sec3 p{
-  font-weight: bold;
-  margin-top: 10px;
-  margin-left: 35%;
+  #carouselExample img{
+    height: 400px;
+  }
+  #con1{
+    width: 39%;
+    height: 450px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  #con1 img{
+    width:100%;
+    height: 400px;
+  }
   
-}
-.ro{
-  width: 90%;
-  height: 500px;
-  margin-left: 5%;
-  margin-top: 50px;
-}
-.ro img{
+  #con2{
+    width: 60%;
+    height: 400px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  #img-con{
+    width: 100%;
+    height: 150px;
+   
+  }
+  #img-con img{
+    width: 18%;
+    height: 150px;
+    margin-left: 2%;
+  }
+  #image1{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+  }
+  
+  #con3{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0 0 10px;
+    clear: both;
+  }
+  #con3 img{
+    width: 98%; 
+    height: 235px;
+  }
+  .slider{
+    width: 98%;
+    height: 300px;
+   clear: both;
+    margin-top: 60px;
+    margin-left: 1%;
+  }
+  .slider img{
+    width: 32%;
+    height: 300px;
+    margin-left: 1%; 
+    border-radius: 10px;
+  }
+  .section2{
+    width: 55%;
+   height: 150px; 
+    margin-top: 50px;
+    margin-left: 2%;
+  }
+  
+  .section3{
+    width: 100%;
+   
+    height: 350px;
+    margin-top:10px ;
+  }
+  #sec3_1{
+    width: 50%;
+   height: 360px;
+   margin-left: 2%;
+    float: left;
+    background-image: url("https://www.gamedistrict.co/assets/images/publish.jpg");
+   background-repeat: no-repeat;
+   background-position: start bottom;
+   background-size:100% ;
+  }
+  #sec3_1 button{
+    background-color: rgb(253, 253, 4);
+     border-radius: 10px;
+    margin-left: 65%;
+    border: 0cap;
+    margin-top: 260px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 600;
+  }
+  #sec3_1 button:hover{
+    background-color: black;
+    color: rgb(243, 243, 10);
+  }
+  .sec3_2{
+    float: left;
+    height: 350px;
+    width: 45%;
+  }
+  .sec3_2_1{
+    width: 100%;
+    height: 110px;
+  margin-top: 5px;
+  margin-left: 20px;
+  }
+  .sec3_2_1 h3{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .sec3_2_1 img{
+    float: left;
+    margin: 20px;
+    
+  }
+  .sec3_2_1 h1{
+    font-weight: 600;
+  }
+  .sec4{
+    width: 65%;
+    height: 150px;
+   margin-top: 40px;
+    margin-top: 40px;
+    margin-left: 17.5%;
+  
+  }
+  .sec4 h1{
+    text-align: center;
+    font-weight: bold;
+  }
+  .sec4 p{
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+  }
+  .sec5{
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10%;
+    box-shadow: -3px 3px 5px 0px rgba(82, 76, 76, 0.75);
+  }
+  .sec5 img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 2px ;
+  }
+  .sec6{
+    width: 98%;
+    height: 300px;
+    margin-left: 1%;
+   background-color: rgb(243,243,243);
+    margin-top: 20px;
+  }
+  .sec6_1{
+    width: 15%;
+    height:200px ;
+    margin: 20px 0 0 50px;
+    float: left;
+  }
+  .sec6_1 img{
+    margin-left: 30%;
+    margin-top: 20px;
+  }
+  .sec6_1 h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .sec6_1 p{
+    font-weight: bold;
+    text-align: center;
+  }
+  .sec6_2{
+    width: 15%;
+    height:200px ;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+  }
+  .sec6_2 img{
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  .sec6_2 h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .sec6_2 p{
+    font-weight: bold;
+    text-align: center;
+  }
+  .sec6 button{
+    padding: 10px ;
+    background-color: yellow;
+    border: 0cap;
+    border-radius: 8px;
+    width: 180px;
+    margin-left: 42%;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .sec6 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  .sec7{
+    width: 96%;
+    height: 410px;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+  }
+  .sec7_1{
+    width: 30%;
+    height: 400px;
+    float: left;
+  }
+  .sec7_1 img{
+    width: 100%;
+    height: 400px;
+  }
+  .sec7_2{
+    width: 38%;
+    float: left;
+    margin: 0 1%;
+    height: 400px;
+    
+  }
+  .sec7_2 h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top:30px ;
+  }
+  .sec7_2 p{
+    text-align: center;
+    margin: 15px;
+    font-weight: 700;
+  }
+  .sec7_2 button{
+    border: 0cqi;
+    width: 150px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+  .sec7_2 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  .sec7_3{
+    width: 30%;
+    float: right;
+    height: 400px;
+    
+  }
+  .sec7_3 img{
+    width: 100%;
+    height: 400px;
+  }
+  .sec8{
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+    background-color:rgb(40,40,40);
+  }
+  .sec8_1{
+   width: 28%;
+   margin-left: 2%;
+   height: 400px;
+   color: white;
+   float: left;
+  }
+  .inp input{
+    width: 200px;
+    height: 40px;
+  }
+  #logo_8{
+    width: 120px;
+    margin-top: 20px;
+    height: 90px;
+    margin-left: 30px;
+  }
+  .sec8 p{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .sec8 img{
+    width: 200px;
+    margin-left: 40px;
+  }
+  .sec8_2{
+   
+    width: 20%;
+    height: 400px;
+    margin-left: 2%;
+    float: left;
+  }
+  
+  .sec8 h3{
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: white;
+    text-align: start;
+    margin-left: 2%;
+    text-decoration: underline;
+  }
+  .sec8 li{
+    list-style: none;
+    margin-top: 15px;
+   margin-left: -30px;
+    text-align: start;
+  }
+  .sec8 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  .sec8 a:hover{
+    color: yellow;
+    text-decoration: underline;
+  }
+  .sec8_3{
+    width: 20%;
+    height: 400px;
+    margin-left: 2%;
+    float: left;
+   
+  }
+  
+  .sec8_4{
+    width: 20%;
+    float: left;
+    height: 400px;
+    margin-left: 2%;
+  
+  }
+  .sec8_4 img{
+  
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: -1px;
+  margin-right: 10px;
+    float: left;
+  }
+  
+  /*publishing file styling*/
+  
+  
+  
+  
+  
+  
+  .pub_sec1{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(246,246,246);
+  }
+  .pub_sec1_1{
+    width: 50%;
+    height: 380px;
+    margin:80px 10px;
+   
+    float:left;
+  }
+  .pub_sec1_1 h1{
+    font-weight: 700;
+  }
+  .pub_sec1_1 p{
+    margin-top: 20px;
+    text-align: justify;
+  }
+  
+  .pub_sec1_1 button{
+    border: 0cap;
+    width: 190px;
+    padding: 10px;
+    background-color: yellow;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .pub_sec1_1 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  .pub_sec1_2{
+    width: 45%;
+    height: 400px;
+    margin-top: 40px;
+    float: right;
+  }
+  .pub_sec1_2 img{
+    width: 100%;
+    height: 400px;
+  }
+  
+  .pub_sec2{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    clear: both;
+    background-color: rgb(245,245,245);
+   
+  }
+  .pub_sec2_1{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 5%;
+  
+  }
+  .pub_sec2_1 img{
+    width: 70%;
+    height: 380px;
+    
+  }
+  .pub_sec2_2{
+    width: 50%;
+    height: 380px;
+    float: right;
+    margin-right: 2%;
+  }
+  .pub_sec2_2 h1{
+   margin-top: -60px;
+    color: yellow;
+    margin: 10% 20% 5% 0;
+    font-weight: 800;
+  }
+  .pub_sec2_2 h2{
+    font-weight: bold;
+  }
+  .pub_sec2_2 p{
+    text-align: justify;
+  }
+  .pub_sec2_2 img{
+    width: 200px;
+    margin-top: 30px;
+    margin-left:20%;
+    height: 150px;
+  }
+  .pub_sec3{
+    width: 57%;
+    height: 220px;
+    margin-top: 90px;
+    margin-left: 25%;
+   
+  }
+  .pub_sec3 h2{
+    font-weight: bold;
+    text-align: center;
+  }
+  .pub_sec3 p{
+    margin-top: 30px;
+    margin: 20px;
+    text-align: center;
+  }
+  .pub_sec4{
+    width: 100%;
+    height: 420px;
+    clear: both;
+    text-align: justify
+  }
+  .pub_sec4_1{
+    width: 30%;
+  
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 10%;
+    float: left;
+  
+  }
+  .pub_sec4_1 img{
+    width: 100%;
+    height: 400px;
+    margin-top: -10px;
+  }
+  .pub_sec4_2{
+    width: 53%;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 3%;float: left;
+   
+  }
+  .pub_sec4_2 h1{
+    margin-top: 80px;
+    font-weight: bold;
+  }
+  .pub_sec4_2 p{
+    margin-top: 10px;
+  }
+  .pub_sec5{
+    width: 100%;
+    margin-top:0px ;
+    height: 400px;
+    clear: both;
+  }
+  .pub_sec5_1{
+    width: 50%;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 13%;
+    float: left;
+    text-align: right;
+  }
+  .pub_sec5_1 h1{
+    font-weight: bold;
+  
+    margin-top: 60px;
+  }
+  .pub_sec5_1 p{
+  
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .pub_sec5_2{
+    width: 30%;
+    height: 380px;
+    margin-top: 20px;
+   margin-left: 2%;
+    float: left;
+   
+  }
+  .pub_sec5_2 img{
+    width: 100%;
+    height: 380px;
+    margin-top: 20px;
+  }
+  .pub_sec6{
+    width: 100%;
+    height: 470px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  
+  }
+  .pub_sec6 h1{
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .pub_sec6_1{
+    width: 30%;
+    height: 350px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 3%;
+  }
+  .pub_sec6_1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 40%;
+  }
+  .pub_sec6_1 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .pub_sec6_1 p{
+    margin: 15px;
+    text-align: center;
+  }
+  .pub_sec7{
+   width: 100%;
+   height: 370px;
+   margin-top: -20px;
+   clear: both;
+  }
+  .pub_sec7_1{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-left: 15%;
+  }
+  .pub_sec7_1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    margin-left: 37%;
+  }
+  .pub_sec7_1 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .pub_sec7_1 p{
+    margin: 15px;
+    text-align: center;
+  }
+  .pub_sec7_2{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-left: 5%;
+  }
+  .pub_sec7_2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    margin-left: 40%;
+  }
+  .pub_sec7_2 h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .pub_sec7_2 p{
+    margin: 15px;
+    text-align: center;
+  }
+  .pub_sec8{
+    width: 100%;
+    height: 440px;
+    margin-top: 20px;
+    background-color: rgb(241, 241, 131);
+    border:  4px rgb(241, 241, 131) solid;
+    }
+  .pub_sec8 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  #ima{
+    width: 60%;
+   margin-left: 20%;
+   margin-top: 40px;
+  }
+  #ima img{
+   margin-left:2% ;
+   width: 30%;
+   height: 150px;
+  }
+  .pub_sec8 button{
+    border: 0cap;
+    background-color: yellow;
+    width: 250px;
+    margin-left: 43%;
+    padding: 10px;
+    margin-top: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  
+  .pub_sec8 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  /* career file styling start*/
+  
+  
+  .car_sec1{
     width: 100%;
     height: 250px;
-    margin: 0;
-}
-#abu_sec1{
-  width: 100%;
-  height: 500px;
- border: 1px rgb(248, 247, 247) solid;
-  background-image: url("https://www.gamedistrict.co/assets/images/about_bg_innear.png");
-  background-repeat: no-repeat;
-  background-position: center center;
- background-size: 100%;
- z-index: -1;
-}
-.abu_sec1_1{
-  width: 50%;
-  height: 350px;
-    margin: 14% 25%;
+  }
+  .car_sec1 img{
+    width: 100%;
+    height: 250px;
+  }
+  #col h2{
+    font-weight: 700;
+  }
+  #col{
+    text-align: justify;
+  }
+  #col2 button{
+    border: 0cap;
+    width: 150px;
+    background-color: yellow;
+    padding: 8px;
+    font-weight: bold;
+    margin: 20px 40px;
+    border-radius: 8px;
+  }
+  #col2 button:hover{
+    background-color: black ;
+    color: yellow;
+  }
+  hr{
+    height: 2px;
+    background-color: black;
+  }
+  .text{
+    font-weight: bold;
+  }
+  .btn{
+    border: 0cap;
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    width: 350px;
+    padding: 10x;
+    border-radius: 8px;
+  
+  }
+  .btn:hover{
+    background-color: yellow;
+    color: black;
+  }
+  h2{
+    font-weight: 700;
+  }
+  .btn2{
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .btn2:hover{
+    background-color: black;
+    color: yellow;
+  }
+  #pic{
+    width: 100%;
+    height: 100vh;
+  }
+  input{
+    border-radius: 5px;
+    border: 1px black solid;
+    height: 40px;
+  }
+  #submit{
+    width: 100%;
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0cap;
+    font-weight: 700;
+  }
+  #submit:hover{
+    background-color: black;
+    color: yellow;
+  }
+  #con_sec1{
+    background-image: url("./component.js/contact/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+  }
+  #con_sec1 p{
+    margin-top: 200px;
+    margin-left: 30px;
+  }
+  #con_sec1 h1{
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  #col7{
+    background-color: rgb(244, 238, 238);
+    margin-top: -100px;
+    border-radius: 10px;
+  }
+  #col7 p{
+    font-weight: bold;
+  }
+  #upload{
+    border: 0cap;
+    background-color: yellow;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  #upload:hover{
+    background-color: black;
+    color: yellow;
+  }
+  #pics img{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+  }
+  #con_sec3{
+    width: 50%;
+    box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
+    min-height: 680px;
+    margin-bottom: 20px;
+   float: left;
+   }
+  .con_sec3 img{
+    width: 60%;
+    margin-left: 20%;
+    height: 400px;
+  }
+  .con_sec3 p{
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 40%;
+    
+  }
+  .ro{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+  .ro img{
+      width: 100%;
+      height: 250px;
+      margin: 0;
+  }
+  #abu_sec1{
+    width: 100%;
+    height: 600px;
+   border: 1px rgb(248, 247, 247) solid;
+    background-image: url("./component.js/about picture/15.jpg");
+    background-repeat: no-repeat;
+    background-position: start start ;
+   background-size: 100%;
+   z-index: -1;
+  }
+  .abu_sec1_1{
+    width: 50%;
+    height: 350px;
+      margin: 14% 25%;
+      z-index: -1;
+  }
+  .abu_sec1_1 h1{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    z-index:-1;
+  }
+  .abu_sec1_1 p{
+    text-align: center;
     z-index: -1;
-}
-.abu_sec1_1 h1{
-  font-weight: 700;
-  text-align: center;
-  margin-top: 30px;
-  z-index:-1;
-}
-.abu_sec1_1 p{
-  text-align: center;
-  z-index: -1;
-}
-.abu_sec2{
-  width: 100%;
-  height: 200px;
-  margin-top: 40px;
-}
-.abu_sec2_1{
-  width: 50%;
-  margin-left: 25%;
-}
-.abu_sec2_1 h2{
-  text-align: center;
-  margin-top: 40px;
-}
-.abu_sec2_1 p{
-  margin-top: 10px;
-  text-align: center;
- 
-}
-.abu_sec4{
-  width: 100%;
-  height: 300px;
-}
-.abu_sec4_1{
-  width: 70%;
-  height:300px ;
-  margin-left: 15%;
-}
-.abu_sec4_1 img{
-  width:80% ;
-}
-#about_sec5{
-  width: 100%;
-  margin-top: 80px;
-  height: 120px;
-  background-image: url("https://www.gamedistrict.co/assets/img/project_bg.jpg");
- background-repeat: no-repeat;
- background-position: center center;
- background-size: 100%;
- background-color: rgb(20,15,0);
- 
-}
-
-#about_sec5_1{
-  width: 80%;
-  height: 100px;
-  margin-left: 10%;
-}
-#about_sec5_1 h2{
-  margin-top: 30px;
-  color: white;
-  float: left;
-}
-#about_sec5_1 button{
-  margin: 30px 40px;
-  width: 150px;
-  background-color: yellow;
-  border-radius: 10px;
-  padding: 8px;
-  border: 0cap;
-  font-weight: 700;
-}
-#about_sec5_1 button:hover{
-  background-color: black;
-  color: yellow;
-}
-
-.container-fluid{
-  width: 100%;
-  height: 500px;
- 
-}
-#abu_sec5{
-  background-color: rgb(250,250,250);
-}
-#abu_sec5_1{
-  width: 60%;
-  margin-left: 20%;
-}
-#abu_sec5_1 h2{
-  text-align: center;
-  margin-top: 30px;
-}
-#abu_sec5_1 p{
-  text-align: center;
-}
-
-#abu_sec5_2{
-    width: 80%;
+  }
+  .abu_sec2{
+    width: 100%;
+    height: 200px;
     margin-top: 40px;
-    margin-left: 10%;
+  }
+  .abu_sec2_1{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .abu_sec2_1 h2{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .abu_sec2_1 p{
+    margin-top: 10px;
+    text-align: center;
+   
+  }
+  .abu_sec4{
+    width: 100%;
     height: 300px;
-   margin-bottom: 10px;
-}
-.img_col{
-  width: 18%;
-  margin-left: 5%;
-  height: 100px;
-  margin-top: 0px;
-}
-.img_col img{
-  width: 100%;
-  height: 80px;
-}
-
-
-
-
-
-/*solution file styling*/
-
-.sol_sec1{
-  width: 100%;
-  height: 450px;
- 
-}
-.sol_sec1 h1{
-  font-weight: 700;
-  margin-top: 0px;
-  margin-left: 20px;
-}
-.sol_sec1 p{
-  margin: 20px;
-}
-.sol_sec1 button{
-  border: 0cap;
-  background-color: yellow;
-  width: 150px;
-  border-radius: 8px;
-  padding: 8px;
-  font-weight: 700;
-  margin-left: 20px;
-}
-.sol_sec1 button:hover{
-  background-color: black;
-  color: yellow;
-}
-.sol_sec1_1{
-  width: 50%;
-  float: left;
-  margin-top: 40px;
-  height: 400px;
-}
-.sol_sec1_2{
-  width: 45%;
-  height: 400px;
-  margin-top: 40px;
-  margin-left: 2.5%;
-  float: left;
- 
-}
-.sol_sec1_2 img{
- 
-  width: 100%;
-  height: 350px;
-}
-.sol_sec2{
-  width: 100%;
-  height: 120px;
-  background-color: rgb(247,247,247);
- 
-}
-.sol_sec2_img{
-  width: 100%;
- margin-top: 10px;
-  height: 120px;
-
-}
-.sol_sec2_img img{
-  width: 12%;
-  margin-left: 6%;
-  height: 100px;
-}
-.sol_sec3{
-  width: 100%;
-  height: 220px;
-}
-.sol_sec3 h2{
-  margin-top: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-}
-.sol_sec3_1{
-  width: 80%;
-  height: 100px;
-  margin-left: 10%;
-  margin-top: 20px;
-
-}
-.sol_sec3_1_img{
-    width: 32%;
+  
+  }
+  .abu_sec4_1{
+    width: 70%;
+    height:300px ;
+    margin-left: 15%;
+  }
+  .abu_sec4_1 img{
+    width:60% ;
+    margin-left: 10%;
+  }
+  
+  #about_sec5{
+    width: 100%;
+    margin-top: 80px;
+    height: 120px;
+    background-image: url("./component.js/about picture/6.png");
+    background-repeat: no-repeat;
+    background-position: start bottom ;
+    background-size: cover;
+    background-color: rgb(20,15,0);
+   
+  }
+  
+  #about_sec5_1{
+    width: 80%;
     height: 100px;
+    margin-left: 10%;
+  }
+  #about_sec5_1 h2{
+    margin-top: 30px;
+    color: white;
     float: left;
+  }
+  #about_sec5_1 button{
+    margin: 30px 40px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 8px;
+    border: 0cap;
+    font-weight: 700;
+  }
+  #about_sec5_1 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  
+  .container-fluid{
+    width: 100%;
+    height: 500px;
+   
+  }
+  #abu_sec5{
+    background-color: rgb(250,250,250);
+  }
+  #abu_sec5_1{
+    width: 60%;
+    margin-left: 20%;
+  }
+  #abu_sec5_1 h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  #abu_sec5_1 p{
+    text-align: center;
+  }
+  
+  #abu_sec5_2{
+      width: 80%;
+      margin-top: 40px;
+      margin-left: 10%;
+      height: 300px;
+     margin-bottom: 10px;
+  }
+  .img_col{
+    width: 18%;
+    margin-left: 5%;
+    height: 100px;
+    margin-top: 0px;
+  }
+  .img_col img{
+    width: 100%;
+    height: 120px;
+  }
+  
+  
+  
+  
+  
+  /*solution file styling*/
+  
+  .sol_sec1{
+    width: 100%;
+    height: 450px;
+   
+  }
+  .sol_sec1 h1{
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .sol_sec1 p{
+    margin: 20px;
+  }
+  .sol_sec1 button{
+    border: 0cap;
+    background-color: yellow;
+    width: 150px;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .sol_sec1 button:hover{
+    background-color: black;
+    color: yellow;
+  }
+  .sol_sec1_1{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+    height: 400px;
+  }
+  .sol_sec1_2{
+    width: 45%;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 2.5%;
+    float: left;
+   
+  }
+  .sol_sec1_2 img{
+   
+    width: 100%;
+    height: 350px;
+  }
+  .sol_sec2{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(247,247,247);
+   
+  }
+  .sol_sec2_img{
+    width: 100%;
+   margin-top: 10px;
+    height: 120px;
+  
+  }
+  .sol_sec2_img img{
+    width: 12%;
+    margin-left: 6%;
+    height: 100px;
+  }
+  
+  .sol_sec3{
+    width: 100%;
+    height: 220px;
+  }
+  .sol_sec3 h2{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .sol_sec3_1{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 20px;
+  
+  }
+  .sol_sec3_1_img{
+      width: 32%;
+      height: 100px;
+      float: left;
+      margin-left: 1%;
+  }
+  .sol_sec3_1_img img{
+   width: 20%;
+   height: 60px;
+   margin-left: 10%;
+   margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .sol_sec3_1_img img:hover{
+    background-color: white;
+  }
+  .sol_sec4{
+    width: 100%;
+    height: 300px;
+   
+  }
+  .sol_sec4_1{
+    width: 25%;
+    height: 300px;
+    margin-left: 7%;
+  
+    float: left;
+  }
+  .sol_sec4_1 h4{
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .sol_sec4_1 li{
+   list-style-type: circle;
+  
+   margin-top: 15px;
+  }
+  .sol_sec6{
+    width: 100%;
+    height: 450px;
+    margin-top: 1px;
+  }
+  .sol_sec6 h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .sol_sec6_1{
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 40px;
+    float: left;
+  }
+  .sol_sec6_1 img{
+    margin-left: 10px;
+  }
+  .sol_sec6_1 h5{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .sol_sec6_2{
+    width: 25%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .sol_sec6_2 img{
+    margin-left: 10px;
+  }
+  .sol_sec6_2 h5{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .sol_sec7{
+    width: 60%;
+    margin-left: 20%;
+    height: 200px;
+    margin-bottom: 30px;
+   
+  }
+  .sol_sec7 h3{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .sol_sec7 p{
+    margin: 10px;
+    text-align: justify;
+  }
+  .sol_sec8{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(248,248,248);
+  }
+  .sol_sec8_1{
+    width: 20%;
+    height: 250px;
+    margin-top: 0px;
+    float: left;
+  
+  }
+  
+  .sol_sec8_1 img{
+    width: 70%;
+  }
+  .sol_sec8_2{
+    width: 50%;
+    height:250px ;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .sol_sec8_2 h4{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .sol_sec8_2 p{
+    margin:10px ;
+  }
+  .sol_sec8_3{
+    width: 20%;
+    height: 250px;
+    margin-top: 0px;
+    clear: both;
+    float: right;
+    
+  }
+  .sol_sec8_3 img{
+    margin-left: 20%;
+    width:70%;
+  }
+  .sol_sec8_4{
+    width: 50%;
+    height:250px ;
+    float: left;
+    margin-top: 0px;
+    margin-left: 29%;
+  }
+  .sol_sec8_4{
+    text-align: right;
+  }
+  .sol_sec8_4 h4{
+    font-weight: 700;
+    margin-top: 40px;
+  } 
+  .sol_sec8_4 p{
+    margin-top: 20px;
+  }
+  .sol_sec9{
+    width: 100%;
+    height: 420px;
+    margin-top: 30px;
+    clear: both;
+  }
+  .sol_sec9 h2{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .sol_sec9_1{
+    width: 32%;
+    height: 220px;
     margin-left: 1%;
-}
-.sol_sec3_1_img img{
- width: 20%;
- height: 60px;
- margin-left: 10%;
- margin-top: 20px;
-  padding: 10px;
-  background-color: black;
-  border-radius: 10px;
-}
-.sol_sec3_1_img img:hover{
-  background-color: white;
-}
-.sol_sec4{
-  width: 100%;
-  height: 300px;
- 
-}
-.sol_sec4_1{
-  width: 25%;
-  height: 300px;
-  margin-left: 7%;
-
-  float: left;
-}
-.sol_sec4_1 h4{
-  font-weight: 700;
-  margin-top: 0px;
-  margin-left: 10px;
-}
-.sol_sec4_1 li{
- list-style-type: circle;
-
- margin-top: 15px;
-}
-.sol_sec6{
-  width: 100%;
-  height: 450px;
-  margin-top: 1px;
-}
-.sol_sec6 h1{
-  text-align: center;
-  font-weight: bold;
-  margin-top: 30px;
-}
-.sol_sec6_1{
-  width: 25%;
-  margin-left: 10%;
-  margin-top: 40px;
-  float: left;
-}
-.sol_sec6_1 img{
-  margin-left: 10px;
-}
-.sol_sec6_1 h5{
-  font-weight: 700;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-.sol_sec6_2{
-  width: 25%;
-  float: left;
-  margin-top: 40px;
-  margin-left: 40px;
-}
-.sol_sec6_2 img{
-  margin-left: 10px;
-}
-.sol_sec6_2 h5{
-  font-weight: 700;
-  margin-top: 20px;
-  margin-left: 10px;
-}
-.sol_sec7{
-  width: 60%;
-  margin-left: 20%;
-  height: 200px;
-  margin-bottom: 30px;
- 
-}
-.sol_sec7 h3{
-  text-align: center;
-  font-weight: 700;
-  margin-top: 20px;
-}
-.sol_sec7 p{
-  margin: 10px;
-  text-align: justify;
-}
-.sol_sec8{
-  width: 100%;
-  height: 800px;
-  background-color: rgb(248,248,248);
-}
-.sol_sec8_1{
-  width: 20%;
-  height: 250px;
-  margin-top: 0px;
-  float: left;
-
-}
-.sol_sec8_1 img{
-  width: 70%;
-}
-.sol_sec8_2{
-  width: 50%;
-  height:250px ;
-  float: left;
-  margin-top: 0px;
-  margin-left: 20px;
-}
-.sol_sec8_2 h4{
-  font-weight: 700;
-  margin-left: 10px;
-  margin-top: 60px;
-}
-.sol_sec8_2 p{
-  margin:10px ;
-}
-.sol_sec8_3{
-  width: 20%;
-  height: 250px;
-  margin-top: 0px;
-  clear: both;
-  float: right;
+    margin-top: 30px;
+    float: left;
+  }
+  .sol_sec9_1 img{
+    width: 100%;
+    height: 220px;
+  }
+  .sol_sec10{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(254,218,0);
+    background-color:3px solid red;
+  }
+  .sol_sec10_1{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 0px;
+    height: 150px;
   
-}
-.sol_sec8_3 img{
-  margin-left: 20%;
-  width:70%;
-}
-.sol_sec8_4{
-  width: 50%;
-  height:250px ;
-  float: left;
-  margin-top: 0px;
-  margin-left: 29%;
-}
-.sol_sec8_4{
-  text-align: right;
-}
-.sol_sec8_4 h4{
-  font-weight: 700;
-  margin-top: 40px;
-} 
-.sol_sec8_4 p{
-  margin-top: 20px;
-}
-.sol_sec9{
-  width: 100%;
-  height: 420px;
-  margin-top: 30px;
-  clear: both;
-}
-.sol_sec9 h2{
-  text-align: center;
-  margin-top: 30px;
-}
-.sol_sec9_1{
-  width: 32%;
-  height: 220px;
-  margin-left: 1%;
-  margin-top: 30px;
-  float: left;
-}
-.sol_sec9_1 img{
-  width: 100%;
-  height: 220px;
-}
-.sol_sec10{
-  width: 100%;
-  height: 600px;
-  background-color: rgb(254,218,0);
-  background-color:3px solid red;
-}
-.sol_sec10_1{
-  width: 40%;
-  margin-left: 30%;
-  margin-top: 0px;
-  height: 150px;
-
-}
-.sol_sec10_1 h3{
-  font-weight: 700;
-  text-align: center;
-}
-.sol_sec10_1 p{
-  text-align: center;
-  margin:20px ;
-}
-.sol_sec10_2{
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 0px;
-}
-.sol_sec10_2 img{
-  margin-top: 40px;
-  width: 100%;
-}
-.gam_sec1{
-  width: 100%;
-  height: 550px;
-  background-image: url("https://www.gamedistrict.co/assets/img/whygames_section_inner2.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-}
-.gam_sec1_img{
-  width: 40%;
- margin-left: 32%;
-}
-.gam_sec1_img img{
-  margin-top: 100px;
-  width: 33%;
-  -webkit-animation:gam_sec1_img 0.45s ease-out both;
-	        animation:gam_sec1_img 0.45s ease-out both;
-}
-
- @-webkit-keyframes gam_sec1_img {
-  0% {
-    -webkit-transform: translateZ(-800px) rotateX(90deg);
-            transform: translateZ(-800px) rotateX(90deg);
-    opacity: 0;
   }
-  54% {
-    -webkit-transform: translateZ(-160px) rotateX(87deg);
-            transform: translateZ(-160px) rotateX(87deg);
-    opacity: 1;
+  .sol_sec10_1 h3{
+    font-weight: 700;
+    text-align: center;
   }
-  100% {
-    -webkit-transform: translateZ(0) rotateX(0);
-            transform: translateZ(0) rotateX(0);
+  .sol_sec10_1 p{
+    text-align: center;
+    margin:20px ;
   }
-}
-@keyframes gam_sec1_img {
-  0% {
-    -webkit-transform: translateZ(-800px) rotateX(90deg);
-            transform: translateZ(-800px) rotateX(90deg);
-    opacity: 0;
+  .sol_sec10_2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0px;
   }
-  54% {
-    -webkit-transform: translateZ(-160px) rotateX(87deg);
-            transform: translateZ(-160px) rotateX(87deg);
-    opacity: 1;
+  .sol_sec10_2 img{
+  height: 200px;
+    width: 100%;
   }
-  100% {
-    -webkit-transform: translateZ(0) rotateX(0);
-            transform: translateZ(0) rotateX(0);
+  .gam_sec1{
+    width: 100%;
+    height: 650px;
+    background-image: url("./component.js/why games/1.jpg");
+    background-repeat: no-repeat;
+    background-position:center  bottom;
+    background-size: 100%;
   }
-}
-
-.gam_sec2{
-  width: 100%;
-  height: 50px;
-  margin-top: -45px;
-  background-image: url("https://www.gamedistrict.co/assets/img/whygames-bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
- 
-}
-.gam_sec3{
-  width: 100%;
-  height: 120px;
- 
-}
-.gam_sec3_img{
- 
-  width: 80%;
-  margin-left: 10%;
-}
-.gam_sec3_img img{
-  width: 12%;
-  height: 80px;
-  margin-left: 10%;
-}
-
-.gam_sec4{
-  width: 100%;
-  height: 500px;
- 
-}
-
-
-
-.gam_sec4_1{
-  width: 35%;
-  height: 400px;
-  margin-left: 6%;
-  margin-top: 30px;
-  float: left;
-  box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
-  -webkit-animation: gam_sec4_1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: gam_sec4_1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes gam_sec4_1 {
-  0% {
-    -webkit-transform: translateZ(-1400px) translateX(-1000px);
-            transform: translateZ(-1400px) translateX(-1000px);
-    opacity: 0;
+  .gam_sec1_img{
+    width: 40%;
+   margin-left: 32%;
   }
-  100% {
-    -webkit-transform: translateZ(0) translateX(0);
-            transform: translateZ(0) translateX(0);
-    opacity: 1;
+  .gam_sec1_img img{
+    margin-top: 100px;
+    width: 33%;
   }
-}
-@keyframes gam_sec4_1 {
-  0% {
-    -webkit-transform: translateZ(-1400px) translateX(-1000px);
-            transform: translateZ(-1400px) translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0) translateX(0);
-            transform: translateZ(0) translateX(0);
-    opacity: 1;
-  }
-}
-.gam_sec4_1 h1{
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.gam_sec4_1 h2{
-  font-weight: bold;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.gam_sec4_1 p{
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.gam_sec4_2{
-  width: 50%;
-  height: 400px;
-  float: left;
-  margin: 30px 4%;
-  background-image: url("https://www.gamedistrict.co/assets/img/game-app-bg.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  -webkit-animation: gam_sec4_2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: gam_sec4_2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-/* ----------------------------------------------
- * Generated by Animista on 2024-2-4 0:41:31
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation slide-in-fwd-right
- * ----------------------------------------
- */
- @-webkit-keyframes gam_sec4_2 {
-  0% {
-    -webkit-transform: translateZ(-1400px) translateX(1000px);
-            transform: translateZ(-1400px) translateX(1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0) translateX(0);
-            transform: translateZ(0) translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes gam_sec4_2 {
-  0% {
-    -webkit-transform: translateZ(-1400px) translateX(1000px);
-            transform: translateZ(-1400px) translateX(1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0) translateX(0);
-            transform: translateZ(0) translateX(0);
-    opacity: 1;
-  }
-}
-
-.gam_sec4_2_img{
-  width: 60%;
-  margin-left: 30%;
-  margin-top: 140px;
-}
-.gam_sec4_2_img img{
-  width: 25%;
   
-}
-.gam_sec5{
-  width: 100%;
-  height: 500px;
- 
-}
-.gam_sec5_1{
-  width: 45%;
-  margin-top: 0px;
-  margin-left: 3%;
-  float: left;
-  height: 450px;
-}
-.gam_sec5_1 img{
-  width: 100%;
-  height: 410px;
-}
-.gam_sec5_2{
-  width: 47%;
-  margin-left: 3%;
-  float: left;
-  height: 450px;
-  margin-top: 0px;
-  box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
-}
-.gam_sec5_2 h1{
-  margin-top: 30px;
-  margin-left: 20px;
-}
-.gam_sec5_2 h3{
-  font-weight: bolder;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-.gam_sec5_2 p{
-  margin: 20px;
-  text-align: justify;
-}
-.gam_sec6{
-  width: 100%;
-  height: 730px;
-}
-.gam_sec6_1{
-  width: 40%;
-  height: 500px;
-  margin-top: 120px;
-  background-image: url("https://www.gamedistrict.co/assets/img/dots-text_2ndarea.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  float: left;
-}
-.gam_sec6_1 h1{
-  margin-top: 70px;
-  margin-left: 40px;
-}
-.gam_sec6_1 h2{
-  font-weight: bold;
-  margin: 30px 40px;
-}
-.gam_sec6_1 p{
-  margin-left: 40px;
-  text-align: justify;
-}
-.gam_sec6_2{
-  width: 25%;
-  height: 350px;
-  float: left;margin-left: 2%;
-  margin-top: 15%;
-  box-shadow: 5px 5px 5px 0px rgba(82, 76, 76, 0.75);
-}
-
-.gam_sec6_2 h3{
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.gam_sec6_2 p{
-  font-size: 14px;
-}
-.gam_sec6_3{
-  float: left;
-  width: 28%;
-  height: 700px;
-  margin-left: 3%;
-}
-.gam_sec6_3_1{
-  width: 100%;
-  height: 300px;
-  margin-top: 50px;
-  box-shadow: 5px 5px 5px 0px rgba(140, 128, 128, 0.75);
-}
-.gam_sec6_3_1 h3{
-  font-weight: bold;
-  margin-top: 20px;
-  font-size: 16px;
-}
-.gam_sec6_3_1 p{
-  font-size: 14px;
-}
-.gam_sec7{
-  width: 70%;
-  height: 300px;
-  margin-left: 15%;
-  margin-top: 40px;
-  text-align: center;
-}
-.gam_sec7 h2{
-  font-weight: bold;
-  margin-top: 20px;
-}
-.gam_sec7 p{
-  font-weight: 700;
-  font-size: 15px;
-  margin-top: 20px;
-}
-.gam_sec8{
-  width: 100%;
-  height: 200px;
-  margin-top: 30px;
-}
-.gam_sec8_img{
-  width: 90%;
-  height: 200px;
-  margin-left: 5%;
-}
-.gam_sec8_img img{
-  width: 25%;
-  height: 150px;
-  margin-left: 5%;
-} 
-.gam_sec9{
-  width: 100%;
-  height: 500px;
-}
-.gam_sec9_1{
-  width: 45%;
-  height: 420px;
-  margin-top: 40px;
-  text-align: justify;
-  margin-left: 5%;
-  float: left; 
-}
-
-
-
-.gam_sec9_1 h2{
-  font-weight: bold;
-  margin-top: 10px;
-}
-.gam_sec9_1 p{
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: 600;
-}
-.gam_sec9_2{
-  width: 45%;
-  margin-left: 5%;
-  height: 420px;
-  margin-top: 40px;
-  float: left;
-  background-image: url("https://cdn.dribbble.com/users/1034016/screenshots/5464158/media/2c13a6d5ae87b975e257a7dc6aa19efa.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-}
-.gam_sec10{
-  width: 55%;
-  height: 200px;
-  margin-top: 20px;
-  margin-left: 23.5%;
-}
-.gam_sec10 img{
-  margin-left: 50px;
-  width: 70%;
-}
-.gam_sec10 p{
-  text-align: center;
-  margin-top: 20px;
-  font-weight: 600;
-}
-.gam_sec11{
-  width: 100%;
-  height: 180px;
-  margin-top: 10px;
-}
-
-.gam_sec11 img{
-  width: 19%;
-  height: 150px;
-  margin-left: 1%;
-}
-.gam_sec12{
-  width: 100%;
-  height: 450px;
-  background-image: url("https://www.gamedistrict.co/assets/img/joinus.jpg");
-  background-size: 100%;
- background-position-y: center;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-color: rgb(231,231,231);
-}
-.gam_sec12 button{
-  margin-left: 40vw;
-  margin-top:400px;
-  border: 0cap;
-  width: 140px;
-  background-color: black;
-  color: yellow;
-  padding: 8px;
-  border-radius: 9px;
-  font-weight: 700;
-}
+  .gam_sec3{
+    width: 100%;
+    height: 120px;
+   
+  }
+  .gam_sec3_img{
+   
+    width: 80%;
+    margin-left: 10%;
+  }
+  .gam_sec3_img img{
+    width: 12%;
+    height: 80px;
+    margin-left: 10%;
+  }
+  
+  .gam_sec4{
+    width: 100%;
+    height: 500px;
+   
+  }
+  
+  
+  
+  .gam_sec4_1{
+    width: 35%;
+    height: 400px;
+    margin-left: 6%;
+    margin-top: 30px;
+    float: left;
+    box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
+    -webkit-animation: gam_sec4_1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: gam_sec4_1 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @-webkit-keyframes gam_sec4_1 {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateX(-1000px);
+              transform: translateZ(-1400px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateX(0);
+              transform: translateZ(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes gam_sec4_1 {
+    0% {
+      -webkit-transform: translateZ(-1400px) translateX(-1000px);
+              transform: translateZ(-1400px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateX(0);
+              transform: translateZ(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  .gam_sec4_1 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .gam_sec4_1 h2{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .gam_sec4_1 p{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .gam_sec4_2{
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin: 30px 4%;
+    background-image: url("https://www.gamedistrict.co/assets/img/game-app-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+   
+  }
+  
+  .gam_sec4_2_img{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 140px;
+  }
+  .gam_sec4_2_img img{
+    width: 20%;
+  
+  }
+  .gam_sec5{
+    width: 100%;
+    height: 500px;
+   
+  }
+  .gam_sec5_1{
+    width: 45%;
+    margin-top: 0px;
+    margin-left: 3%;
+    float: left;
+    height: 450px;
+  }
+  .gam_sec5_1 img{
+    width: 100%;
+    height: 450px;
+  }
+  .gam_sec5_2{
+    width: 47%;
+    margin-left: 3%;
+    float: left;
+    height: 450px;
+    margin-top: 0px;
+    box-shadow: -2px 2px 5px 0px rgba(82, 76, 76, 0.75);
+  }
+  .gam_sec5_2 h1{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .gam_sec5_2 h3{
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .gam_sec5_2 p{
+    margin: 20px;
+    text-align: justify;
+  }
+  .gam_sec6{
+    width: 100%;
+    height: 730px;
+  }
+  .gam_sec6_1{
+    width: 40%;
+    height: 500px;
+    margin-top: 120px;
+    background-image: url("https://www.gamedistrict.co/assets/img/dots-text_2ndarea.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    float: left;
+  }
+  .gam_sec6_1 h1{
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+  .gam_sec6_1 h2{
+    font-weight: bold;
+    margin: 30px 40px;
+  }
+  .gam_sec6_1 p{
+    margin-left: 40px;
+    text-align: justify;
+  }
+  .gam_sec6_2{
+    width: 25%;
+   
+    height: 350px;
+    float: left;margin-left: 2%;
+    margin-top: 15%;
+    box-shadow: 5px 5px 5px 0px rgba(82, 76, 76, 0.75);
+  }
+  .gam_sec6_2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  
+  .gam_sec6_2 h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .gam_sec6_2 p{
+    font-size: 14px;
+  }
+  .gam_sec6_3{
+    float: left;
+    width: 28%;
+    height: 700px;
+    margin-left: 3%;
+  }
+  .gam_sec6_3_1{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px 0px rgba(140, 128, 128, 0.75);
+  }
+  .gam_sec6_3_1 h3{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .gam_sec6_3_1 p{
+    font-size: 14px;
+  }
+  .gam_sec7{
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .gam_sec7 h2{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .gam_sec7 p{
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .gam_sec8{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .gam_sec8_img{
+    width: 90%;
+    height: 200px;
+  
+    margin-left: 5%;
+  }
+  .gam_sec8_img img{
+    width: 25%;
+    height: 150px;
+    margin-left: 5%;
+  } 
+  .gam_sec9{
+    width: 100%;
+    height: 500px;
+  }
+  .gam_sec9_1{
+    width: 45%;
+    height: 420px;
+    margin-top: 40px;
+    text-align: justify;
+    margin-left: 5%;
+    float: left; 
+  }
+  
+  
+  
+  .gam_sec9_1 h2{
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .gam_sec9_1 p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .gam_sec9_2{
+    width: 45%;
+    margin-left: 5%;
+    height: 420px;
+    margin-top: 40px;
+    float: left;
+    background-image: url("https://cdn.dribbble.com/users/1034016/screenshots/5464158/media/2c13a6d5ae87b975e257a7dc6aa19efa.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+  }
+  .gam_sec10{
+    width: 55%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 23.5%;
+  }
+  .gam_sec10 img{
+    margin-left: 50px;
+    width: 70%;
+  }
+  .gam_sec10 p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .gam_sec11{
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+  }
+  
+  .gam_sec11 img{
+    width: 19%;
+    height: 160px;
+    margin-left: 1%;
+  }
+  .gam_sec12{
+    width: 100%;
+    height: 450px;
+    background-image: url("./component.js/why games/7.jpg");
+    background-size: 100%;
+   background-position-y: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(231,231,231);
+  }
+  .gam_sec12 button{
+    margin-left: 45vw;
+    margin-top:400px;
+    border: 0cap;
+    width: 140px;
+    background-color: black;
+    color: yellow;
+    padding: 8px;
+    border-radius: 9px;
+    font-weight: 700;
+  }

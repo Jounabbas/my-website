@@ -27,6 +27,7 @@ const Nave = () => {
                     <li><NavLink to='/solution'>SOLUTION</NavLink></li>                                        
                     <li><NavLink to='/publishing'>PUBLISH</NavLink></li>
                     <li><NavLink to='/games'>WHY GAMES</NavLink></li>
+                    <li><NavLink to='/team'>TEAM</NavLink></li>
                     <li><NavLink to='/career'>CAREER</NavLink></li>
                     <li><NavLink to='/contact'>CONTACT</NavLink></li>
                 </ul>

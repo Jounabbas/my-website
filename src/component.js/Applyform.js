@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
-
+import pic1 from "./career/PIC2.png"
 const Applyform = () => {
   const [formData,setFormData]=useState({
     name:"",
@@ -37,10 +37,10 @@ const to ="jounabbasreact.js@gmail.com"
   return (
     <>
       <div className="row my-4 mx-3" >
-        <div className="col-md-6 ">
+        <div className="col-md-6 imagess" >
           <img data-aos="flip-right"
             id="pic"
-            src="https://www.gamedistrict.co/assets/img/jobs_career_profilepic.jpg"
+            src={pic1}
             alt=""
           />
         </div>

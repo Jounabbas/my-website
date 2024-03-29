@@ -1,19 +1,30 @@
 import React from 'react'
 import Footer from './Footer'
+import game_pic1 from "./why games/1.jpg";
+import game_pic2 from "./why games/8.jpg";
+import game_pic10 from "./why games/10.png";
+import pic2 from "./why games/2.png"
+import pic3 from "./why games/3.png"
+import pic4 from "./why games/4.png"
+import pic11 from "./why games/11.png"
+import pic12 from "./why games/12.png"
+import pic13 from "./why games/13.png"
+import pic14 from "./why games/14.png"
+import pic15 from "./why games/15.png"
+import pic16 from "./why games/16.png"
+import pic17 from "./why games/17.png"
+import pic18 from "./why games/18.png"
+import pic19 from "./why games/19.png"
+import pic20 from "./why games/20.png"
 
 const Games = () => {
   return (
     <>
       <div className="gam_sec1">
        <div className="gam_sec1_img">
-       <img src="https://www.gamedistrict.co/assets/img/left-icon.jpg"  alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/icon-g.jpg"  alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/right-icon.jpg"  alt="" />
        </div>
       </div>
-       <div className="gam_sec2">
-        
-      </div>
+  
       <div className="gam_sec3"   data-aos="zoom-in">
       <div className="gam_sec3_img">
         <img src="https://www.gamedistrict.co/assets/img/why-client-1.jpg" alt="" />
@@ -41,7 +52,7 @@ const Games = () => {
 
       <div className="gam_sec5">
            <div className="gam_sec5_1" data-aos="zoom-in-left">
-            <img src="https://www.gamedistrict.co/assets/img/era.jpg" alt="" />
+            <img src={game_pic2} alt="" />
            </div>
            <div className="gam_sec5_2" data-aos="slide-left">
             <h1>the era of</h1>
@@ -84,11 +95,11 @@ const Games = () => {
         <p>However, your overall strategy should go way beyond development aspect. Although your product strategy should be about crafting an amazing user experience, it needs to think about implementing an effective monetization and business strategy.</p>
       </div>
 
-      <div className="gam_sec8">
+      <div className="gam_sec8" >
         <div className="gam_sec8_img">
-        <img data-aos="slide-right" src="https://www.gamedistrict.co/assets/img/venture-icon-1.jpg" alt="" />
-        <img data-aos="slide-down" src="https://www.gamedistrict.co/assets/img/venture-icon-2.jpg" alt="" />
-        <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/venture-icon-3.jpg" alt="" />
+        <img data-aos="slide-right" src={pic2} alt="" />
+        <img data-aos="slide-down" src={pic3} alt="" />
+        <img data-aos="slide-left" src={pic4} alt="" />
       </div>
       </div>
 
@@ -111,18 +122,18 @@ const Games = () => {
       </div>
 
         <div className="gam_sec11">
-            <img data-aos="slide-right" src="https://www.gamedistrict.co/assets/img/inside-g-1.jpg" alt="" />
-            <img data-aos="slide-up" src="https://www.gamedistrict.co/assets/img/inside-g-2.jpg" alt="" />
-            <img data-aos="slide-down" src="https://www.gamedistrict.co/assets/img/inside-g-3.jpg" alt="" />
-            <img data-aos="zoom-out" src="https://www.gamedistrict.co/assets/img/inside-g-4.jpg" alt="" />
-            <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/inside-g-5.jpg" alt="" />
+            <img data-aos="slide-right" src={pic11} alt="" />
+            <img data-aos="slide-up" src={pic12} alt="" />
+            <img data-aos="slide-down" src={pic13} alt="" />
+            <img data-aos="zoom-out" src={pic14} alt="" />
+            <img data-aos="slide-left" src={pic15} alt="" />
         </div>
         <div className="gam_sec11">
-            <img data-aos="slide-right" src="https://www.gamedistrict.co/assets/img/inside-g-6.jpg" alt="" />
-            <img data-aos="slide-down" src="https://www.gamedistrict.co/assets/img/inside-g-7.jpg" alt="" />
-            <img data-aos="slide-up" src="https://www.gamedistrict.co/assets/img/inside-g-8.jpg" alt="" />
-            <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/inside-g-9.jpg" alt="" />
-            <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/inside-g-10.jpg" alt="" />
+            <img data-aos="slide-right" src={pic16} alt="" />
+            <img data-aos="slide-down" src={pic17} alt="" />
+            <img data-aos="slide-up" src={pic18} alt="" />
+            <img data-aos="slide-left" src={pic19} alt="" />
+            <img data-aos="slide-left" src={pic20} alt="" />
         </div>
 
         <div className="gam_sec12" >

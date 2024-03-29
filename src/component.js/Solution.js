@@ -1,20 +1,18 @@
 import React from "react";
 import Footer from "./Footer";
+import sol_pic1 from "./solution pics/24.png"
+import sol_pic2 from "./solution pics/25.png"
 
 const Solution = () => {
   return (
     <>
       <div className="sol_sec1">
         <div className="sol_sec1_1"  data-aos="zoom-in-left">
-          <h1>Custom Solutions for your game app</h1>
+          <h1>Crafted Solutions Designed Exclusively for Your Gaming App.</h1>
           <p>
-            This booming gaming industry requires businessmen to explore &
-            collaborate with other ventures and dictate their future more
-            firmly. Latest technologies like artificial intelligence (AI) and
-            virtual reality (VR) create a futuristic impact & really captures
-            the eye of digitally prone users. Game District is always on toes to
-            traverse every possible opportunity to collaborate, innovate &
-            invent complex ideas & their contrary execution for the users.
+          In the thriving gaming industry, entrepreneurs must venture into collaborations, steering their future with resilience. 
+Cutting-edge technologies such as artificial intelligence (AI) and virtual reality (VR) cast a futuristic impact, captivating digitally savvy users. 
+At Jabir Sons, we are always proactive, seizing every opportunity to collaborate, innovate, and bring intricate ideas to life for our users.
           </p>
           <button>LEARN MORE</button>
         </div>
@@ -197,10 +195,9 @@ const Solution = () => {
       <div className="sol_sec7" data-aos="slide-right">
         <h3>We Serve The Inception</h3>
         <p>
-          We publish your project in the best manner covering all the important
-          aspects that boosts your game reach and ultimately gives you better
-          results. Your game has to be attractive with the potential to become a
-          leading venture.
+        We showcase your project comprehensively, 
+        highlighting crucial aspects to enhance your game's visibility and deliver optimal results.
+        Your game deserves a captivating presentation with the potential to emerge as a leading venture.
         </p>
       </div>
 
@@ -210,7 +207,9 @@ const Solution = () => {
         </div>
         <div className="sol_sec8_2" data-aos="slide-left">
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>Leveraging automated analysis of a software application's artifacts and extracting metadata structures significantly enhances app store visibility, 
+           ensuring optimal reach and engagement with the right users. This strategic approach proves essential for maximizing your project's impact in the 
+           competitive app marketplace.</p>
         </div>
 
         <div className="sol_sec8_3">
@@ -218,7 +217,10 @@ const Solution = () => {
         </div>
          <div className="sol_sec8_4" data-aos="slide-right">
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>In the realm of game design, the usability of the interface plays a pivotal role, determining the triumph or downfall of a game or app. 
+                Successful ventures prioritize meticulous planning and effort in crafting a seamlessly intuitive UI & UX, recognizing it as a key element
+                contributing to their overall success in the competitive landscape.
+</p>
         </div>
        
        
@@ -227,7 +229,9 @@ const Solution = () => {
         </div>
         <div className="sol_sec8_2" data-aos="slide-left">
             <h4>App Discovery</h4>
-            <p>Discovery plays an important role in bringing up your project to the right users. Automatically analyzing artifacts of a software application and determining metadata structures associated with the application proves to be a very handy trick to improve your presence on the app stores.</p>
+            <p>Effective marketing stands as a cornerstone for the success of any business.
+            Propagating product awareness through Google and in-app advertisements establishes a robust presence,
+            elevating brand image and enhancing the appeal of a purchase.</p>
         </div>
 
         
@@ -256,9 +260,9 @@ const Solution = () => {
         </div>
 
         <div className="sol_sec10_2" data-aos="zoom-out-center">
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_1.png" alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_2.png" alt="" />
-            <img src="https://www.gamedistrict.co/assets/img/techs_icon_3.png" alt="" />
+            <img  src={sol_pic1} alt="" />
+            <img src={sol_pic2} alt="" />
+           
         </div>
        
       </div>

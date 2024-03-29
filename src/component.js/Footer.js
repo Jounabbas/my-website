@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import icon1 from "./icons/3.png"
+import icon2 from "./icons/1.png"
 
 function Footer() {
   return (
@@ -9,7 +11,12 @@ function Footer() {
         <div className="sec8_1" >
           <img id="logo_8" src="https://www.gamedistrict.co/assets/images/footer_logo.png" alt="" />
           <p>Making you realize the power of Digital Intelligence.</p>
-          <img src="https://www.gamedistrict.co/assets/images/icons.jpg" alt="" />
+          <div className='inp'>
+            <img style={{width:'80px',height:"80px" ,borderRadius:"40px",cursor:"pointer"}} src={icon1}/>
+            <img style={{width:'50px',height:"50px" ,borderRadius:"25px",cursor:"pointer"}} src={icon2}/>
+           
+          </div>
+          <input style={{marginLeft:"40px"}} type='text' placeholder='Enter here.'></input>
           <p>© Copyright Game District 2019,All Rights Reserved.</p>
         </div>
 

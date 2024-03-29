@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './Slider.css'; // Import your CSS file for styling
 import Carousel from 'react-multi-carousel'; 
 import 'react-multi-carousel/lib/styles.css';
+import slider_pic from "./slider/Become your better self.png"
+import slider_pic_1 from "./slider/Untitled design (1).png"
+import slider_pic_2 from "./slider/Untitled design.png"
 
 const Slider = () => { 
 
@@ -12,13 +15,13 @@ const Slider = () => {
       slidesToSlide: 1// optional, default to 1.
     },
   }
-  return (
+  return ( 
     <>
     <Carousel className='Carousel' autoPlay="true" responsive={responsive}
-  autoPlaySpeed={3000}   showDots={true}   infinite={true}>
-      <div style={{margin:'10px'}}><img src="https://img.freepik.com/free-photo/rendering-abstract-futuristic-background-with-glowing-neon-blue-orange-lights_181624-19807.jpg" alt="" /></div>
-      <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-cool-texture-geometric-abstract-background-image_345876.jpg" alt="" />
-      <img src="https://t3.ftcdn.net/jpg/04/99/43/10/360_F_499431037_xMK5TKegMQ24NynFAK6LNMXZo4wAS3qy.jpg" alt="" />
+  autoPlaySpeed={3000}   showDots={true}   infinite={"true"}>
+      <div style={{margin:'10px'}}><img src={ slider_pic} alt="" /></div>
+      <img src={slider_pic_1} alt="" />
+      <img src={slider_pic_2} alt="" />
     </Carousel>
    </>
   );
