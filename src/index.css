@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: rgb(251, 255, 248);
-  
+
   } 
   .section1{
     margin-top: 10px;
@@ -125,7 +125,7 @@ body {
   }
   .sec3_2_1 img{
     float: left;
-    margin: 20px;
+    margin: 20px; 
     
   }
   .sec3_2_1 h1{
@@ -383,7 +383,6 @@ body {
     width: 50%;
     height: 380px;
     margin:80px 10px;
-   
     float:left;
   }
   .pub_sec1_1 h1{
@@ -682,13 +681,32 @@ body {
     width: 100%;
     height: 250px;
   }
-  #col h2{
-    font-weight: 700;
+  .car_sec2{
+
+    height: 150px;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: .7fr 2.3fr .7fr;
   }
-  #col{
-    text-align: justify;
+  .car_sec2_1{
+    margin-left: 40px;
+    
   }
-  #col2 button{
+  .car_sec2_2{
+    margin-left: 30px;
+  }
+  .car_sec2_2 p{
+ padding:0 25px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+  }
+  .car_sec2_3{
+    margin-left: 50px;
+    
+  }
+  .car_sec2_3 button{
     border: 0cap;
     width: 150px;
     background-color: yellow;
@@ -697,7 +715,7 @@ body {
     margin: 20px 40px;
     border-radius: 8px;
   }
-  #col2 button:hover{
+  .car_sec2_3 button:hover{
     background-color: black ;
     color: yellow;
   }
@@ -760,6 +778,7 @@ body {
     color: yellow;
   }
   #con_sec1{
+    width: 100%;
     background-image: url("./component.js/contact/1.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -767,6 +786,7 @@ body {
     height: 400px;
   }
   #con_sec1 p{
+    display: inline-block;
     margin-top: 200px;
     margin-left: 30px;
   }

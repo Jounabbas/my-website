@@ -37,14 +37,14 @@ const Contact = () => {
       // Open the mail client with the mailto link
       window.location.href = mailtoLink;
     };
-  return (
+  return ( 
     <>
-      <div className="row"  >
+  
         <div className="col" id="con_sec1" >
           <p>it's hard not to find your</p>
           <h1>PARTNER</h1>
         </div>
-      </div>
+
       <div className="row mx-3 " id="" >
         <div className="col-md-6" style={{ marginTop: "-40px" }}>
           <Link target="_blank" to="https://www.facebook.com/jabirsons">

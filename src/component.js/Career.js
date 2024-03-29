@@ -11,31 +11,31 @@ const Career = () => {
       </div>
 
       
-      <div className="row mt-3 mx-3">
-        <div className="col-md-3"id='col' >
+      <div className="car_sec2">
+        <div className="car_sec2_1" >
             <h2 >CG Artist</h2>
             <p>Location: JAMAN SHAH</p>
         </div>
-        <div className="col-md-6" style={{textAlign:"justify"}} >
+        <div className="car_sec2_2" style={{textAlign:"justify"}} >
             <p onClick={()=>navigate("/jobs")}><Link  href="" style={{textDecoration:"none",color:"black"}}>Game District is an emerging Mobile Games Leader with 500+ Million Games Downloads and trusted by the Biggest companies like NFL, Hobbits, LEGO, and Outfit7. We are looking for a talented CG Artist to join our design team.</Link></p>
         </div>
-        <div className="col-md-3"id='col2' >
+        <div className="car_sec2_3" >
             <button  onClick={()=>navigate("/jobs")}>VIEW DETAIL</button>
         </div>
       </div><hr/> 
 
-      <div className="row mt-3 mx-3">
-        <div className="col-md-3"id='col' >
-            <h2 >Unity Game </h2>
+      <div className="car_sec2">
+        <div className="car_sec2_1" >
+            <h2 >CG Artist</h2>
             <p>Location: JAMAN SHAH</p>
         </div>
-        <div className="col-md-6"style={{textAlign:"justify"}} >
-            <p onClick={()=>navigate("/jobs")}><Link href="" style={{textDecoration:"none",color:"black"}}>Game District is an emerging Mobile Games Leader with 500+ Million Games Downloads and trusted by the Biggest companies like NFL, Hobbits, LEGO, and Outfit7. We are looking for a talented CG Artist to join our design team.</Link></p>
+        <div className="car_sec2_2" style={{textAlign:"justify"}} >
+            <p onClick={()=>navigate("/jobs")}><Link  href="" style={{textDecoration:"none",color:"black"}}>Game District is an emerging Mobile Games Leader with 500+ Million Games Downloads and trusted by the Biggest companies like NFL, Hobbits, LEGO, and Outfit7. We are looking for a talented CG Artist to join our design team.</Link></p>
         </div>
-        <div className="col-md-3"id='col2' >
+        <div className="car_sec2_3" >
             <button  onClick={()=>navigate("/jobs")}>VIEW DETAIL</button>
         </div>
-      </div>
+      </div><hr/> 
       <Footer/>
     </>
   )
