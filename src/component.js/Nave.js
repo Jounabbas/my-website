@@ -49,20 +49,15 @@ const Navebar = () => {
         <div className="logo2" >
             <img src={logo} alt="" />
         </div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/project">Project</Link>
-          </li>
-          <li>
-            <Link to="contact">Contact</Link>
-          </li>
-        </ul>
+          <ul>
+                <li><NavLink to='/'>HOME</NavLink></li>
+                <li><NavLink to='/about'>ABOUT</NavLink></li> 
+                <li><NavLink to='/solution'>SOLUTION</NavLink></li>                                        
+                <li><NavLink to='/publishing'>PUBLISH</NavLink></li>
+                <li><NavLink to='/games'>WHY GAMES</NavLink></li>
+                <li><NavLink to='/career'>CAREER</NavLink></li>
+                <li><NavLink to='/contact'>CONTACT</NavLink></li>
+          </ul> 
       </div>
     </>
   );
