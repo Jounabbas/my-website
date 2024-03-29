@@ -49,7 +49,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="abu_sec2" data-aos="fade-up">
+      <div className="abu_sec2" >
         <div className="abu_sec2_1">
           <h2>What Drives Us?</h2>
           <p>
@@ -59,27 +59,27 @@ const About = () => {
       </div>
 
       <div className="row mx-5" style={{ backgroundColor: "rgb(250,250,250)" }}>
-        <div className="col-md-3 "  data-aos="fade-right">
+        <div className="col-md-3 "  >
           <img style={{width:"220px",height:"220px",marginLeft:"30px"}}
             src={pic1}
             alt=""
           />
         </div>
-        <div className="col-md-3" data-aos="fade-left">
+        <div className="col-md-3" >
           <h1 style={{ fontWeight: "bold" }}>01</h1>
           <h3 style={{ fontWeight: "700" }}>Professionalism</h3>
           <p>
           Jabir Sons is in search of dynamic and youthful innovators, ready to mold their approaches amidst the evolving challenges of the digital industry.
           </p>
         </div>
-        <div className="col-md-3 " data-aos="fade-right">
+        <div className="col-md-3 " >
           <img 
           style={{width:"300px",height:"300px",margin:"-20px 0 0 30px"}}
             src={pic2}
             alt=""
           />
         </div>
-        <div className="col-md-3" data-aos="fade-left">
+        <div className="col-md-3" >
           <h1 style={{ fontWeight: "bold" }}>02</h1>
           <h3 style={{ fontWeight: "700" }}>Love For Work</h3>
           <p>
@@ -87,20 +87,20 @@ const About = () => {
           </p>
         </div>
 
-        <div className="col-md-3 "  data-aos="fade-right">
+        <div className="col-md-3 "  >
           <h1 style={{ fontWeight: "bold", textAlign: "right" }}>03</h1>
           <h3 style={{ fontWeight: "700", textAlign: "right" }}>Enthusiasm</h3>
           <p>
           At the core of our mission, Jabir Sons seeks the ingenuity of young minds to shape their approaches amidst the dynamic challenges of the digital industry.
           </p>
         </div>
-        <div className="col-md-3"  data-aos="fade-left">
+        <div className="col-md-3"  >
           <img  style={{width:"220px",height:"220px"}}
             src={pic3}
             alt=""
           />
         </div>
-        <div className="col-md-3 "  data-aos="fade-right">
+        <div className="col-md-3 "  >
           <h1 style={{ fontWeight: "bold", textAlign: "right" }}>04</h1>
           <h3 style={{ fontWeight: "700", textAlign: "right" }}>
           Exceeding Limits
@@ -109,7 +109,7 @@ const About = () => {
           Embracing innovation, Game Haven eagerly welcomes young minds to sculpt their strategies amid the evolving challenges of the digital frontier.
           </p>
         </div>
-        <div className="col-md-3"  data-aos="fade-left">
+        <div className="col-md-3"  >
           <img style={{width:"210px",height:"210px",marginLeft:"30px"}}
             src={pic4}
             alt=""
@@ -117,7 +117,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="abu_sec4 "  data-aos="slide-up">
+      <div className="abu_sec4 "  >
         <div className="abu_sec4_1">
           <img
           
@@ -132,18 +132,18 @@ const About = () => {
       </div>
 
       <div id="about_sec5">
-        <div id="about_sec5_1"  data-aos="fade-right">
+        <div id="about_sec5_1" >
           <h2>
             Ready to start your project
             <span style={{ color: "yellow" }}>?</span>
           </h2>
-          <button  data-aos="slide-left">LETS START</button>
+          <button  >LETS START</button>
         </div>
       </div>
 
       <div className="container-fluid" id="abu_sec5">
         <div className="row">
-          <div className="" id="abu_sec5_1"   data-aos="slide-down">
+          <div className="" id="abu_sec5_1"  >
             <h2>Our Clients</h2>
             <p>
               Game District longs for fresh & young minds who can mould their
@@ -154,29 +154,29 @@ const About = () => {
 
         <div className="row" id="abu_sec5_2">
             <div className="col-md-3 img_col " >
-              <img  data-aos="flip-right"  src={pic7} alt="" />
+              <img  src={pic7} alt="" />
             </div>
             <div className="col-md-3  img_col" >
-              <img  data-aos="flip-up"  src={pic22} alt="" />
+              <img  src={pic22} alt="" />
               </div>
               <div className="col-md-3 img_col" >
-                <img  data-aos="flip-down"  src={pic16} alt="" />
+                <img src={pic16} alt="" />
               </div>
               <div className="col-md-3 img_col" >
-              <img  data-aos="flip-left"  src={pic17} alt="" />
+              <img src={pic17} alt="" />
               </div>
 
               <div className="col-md-3 img_col "  >
-              <img data-aos="flip-left"  src={pic18} alt="" />
+              <img  src={pic18} alt="" />
             </div>
             <div className="col-md-3  img_col" >
-              <img data-aos="flip-up" src={pic19} alt="" />
+              <img src={pic19} alt="" />
               </div>
               <div className="col-md-3 img_col" >
-                <img data-aos="flip-down" src={pic20} alt="" />
+                <img src={pic20} alt="" />
               </div>
               <div className="col-md-3 img_col" >
-              <img data-aos="flip-left" src={pic21} alt="" />
+              <img src={pic21} alt="" />
               </div>
         </div>
       </div>

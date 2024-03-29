@@ -20,7 +20,7 @@ const Publishing = () => {
   return (
     <>
         <div className='pub_sec1'>
-          <div className='pub_sec1_1' data-aos="slide-right">
+          <div className='pub_sec1_1' >
             <h1>Publishing Games From Dreams to Reality</h1>
             <p>   Jabir Sons has established a rich history of collaborative efforts with independent ventures,
            gaming teams, and companies over the past few months. We recognize the importance of tailoring an
@@ -31,15 +31,15 @@ const Publishing = () => {
             <Link to="https://inquiry.forms.app/gdpublishing/publish-your-game" target='_blank' > <button>PUBLISHING</button></Link>
           </div>
           <div className="pub_sec1_2">
-           <img data-aos="flip-right" src={pub_pic4} alt="" />
+           <img  src={pub_pic4} alt="" />
           </div>
         </div>
 
         <div className="pub_sec2">
-          <div className="pub_sec2_1" data-aos="slide-right">
+          <div className="pub_sec2_1">
             <img src={pub_pic8} alt="" />
           </div>
-          <div className="pub_sec2_2" data-aos="slide-left">
+          <div className="pub_sec2_2" >
             <h1>x</h1>
             <h2>Utilize our global platform for your amazing games.</h2>
             <p>
@@ -52,7 +52,7 @@ const Publishing = () => {
           </div>
         </div>
 
-        <div className="pub_sec3" data-aos="slide-down">
+        <div className="pub_sec3" >
           <h2>Publishing Games <br/>From Dreams to Reality</h2>
           <p>Turning dreams into reality, our passion for publishing games transforms creative 
                     visions into immersive experiences for global audiences. </p>
@@ -61,9 +61,9 @@ const Publishing = () => {
         
         <div className="pub_sec4">
           <div className="pub_sec4_1">
-            <img data-aos="flip-right" src={pub_pic1} alt="" />
+            <img  src={pub_pic1} alt="" />
           </div>
-          <div className="pub_sec4_2" data-aos="slide-left">
+          <div className="pub_sec4_2" >
             <h1>Global existence.</h1>
             <p>Amplifying your global presence through strategic SMM, we navigate diverse platforms with
               precision, ensuring your brand stays current and reaches a worldwide audience. By discerning
@@ -72,7 +72,7 @@ const Publishing = () => {
         </div>
 
         <div className="pub_sec5">
-          <div className="pub_sec5_1" data-aos="slide-right">
+          <div className="pub_sec5_1" >
             <h1>Become market leader.</h1>
             <p>  Crafting an extraordinary game is challenging, but marketing it can be even tougher.
                With an audience exceeding 1,000,000 players to date, our team ensures your game reaches
@@ -81,15 +81,15 @@ const Publishing = () => {
             </p>
           </div>
           <div className="pub_sec5_2">
-            <img data-aos="flip-right" src={pub_pic2} alt="" />
+            <img  src={pub_pic2} alt="" />
           </div>
         </div>
 
         <div className="pub_sec4">
           <div className="pub_sec4_1">
-            <img data-aos="flip-right" src={pub_pic3} alt="" />
+            <img src={pub_pic3} alt="" />
           </div>
-          <div className="pub_sec4_2" data-aos="slide-left">
+          <div className="pub_sec4_2">
             <h1> Develop desirability.</h1>
             <p>Harnessing our passion for development hacking and client acquisition, our teams are dedicated 
                to identifying the optimal audience and the perfect market entry timing for your project. With
@@ -99,7 +99,7 @@ const Publishing = () => {
         </div>
 
         <div className="pub_sec5">
-          <div className="pub_sec5_1" data-aos="slide-right">
+          <div className="pub_sec5_1" >
             <h1>It’s your venture!</h1>
             <p>
                Harnessing our passion for development hacking and client acquisition, our teams are dedicated 
@@ -108,23 +108,23 @@ const Publishing = () => {
                and achieving unparalleled game quality.</p>
           </div>
           <div className="pub_sec5_2">
-            <img data-aos="flip-right" src={pub_pic1} alt="" />
+            <img  src={pub_pic1} alt="" />
           </div>
         </div>
 
         <div className="pub_sec6">
-          <h1 data-aos="slide-doen">What are we looking for?</h1>
-          <div className="pub_sec6_1" data-aos="slide-right">
+          <h1>What are we looking for?</h1>
+          <div className="pub_sec6_1" >
             <img src={pub_pic5} alt="" />
             <h4>Innovation</h4>
             <p>A great idea in this time & age must include some level of innovation & creativity, with the room of improvement. A promising idea is easy to polish, sell & get returns from.</p>
           </div>
-          <div className="pub_sec6_1" data-aos="slide-up">
+          <div className="pub_sec6_1" >
             <img src={pub_pic6} alt="" />
             <h4>Stealth</h4>
             <p>Many of the times, an exemplary idea is not that easy to float in to the crowd. Going up from smaller markets to big ones or dividing it into beta & alpha versions is one way to go about it.</p>
           </div>
-          <div className="pub_sec6_1" data-aos="slide-left">
+          <div className="pub_sec6_1" >
             <img src={pub_pic7} alt="" />
             <h4>Readiness</h4>
             <p>Come to us prepared for the launch. Make necessary steps to take it to 90% and then we will easily take over it make it reach more than a 100%. Gutsy & bold steps give you exponential success.</p>
@@ -132,12 +132,12 @@ const Publishing = () => {
 
         </div>
         <div className="pub_sec7">
-        <div className="pub_sec7_1" data-aos="slide-right">
+        <div className="pub_sec7_1" >
             <img src={pub_pic9} alt="" />
             <h4>Teamwork</h4>
             <p>A great piece of work is made by a great team working in sync together. Passion & talent put to hard work yield some unthinkable results beyond expectations.</p>
           </div>
-          <div className="pub_sec7_2" data-aos="slide-left">
+          <div className="pub_sec7_2" >
             <img src={pub_pic10} alt="" />
             <h4>Mobile</h4>
             <p>We are mainly focused on the mobile platforms & we prefer projects developed for iOS & Android. Hypercasual, shooting, sports, adventure & kids games are our top selling ideas.</p>
@@ -145,13 +145,13 @@ const Publishing = () => {
           </div>
 
           <div className="pub_sec8">
-            <h1 data-aos="slide-down">Submit your project to learn more</h1>
-            <div id='ima' data-aos="zoom-in-right">
+            <h1 >Submit your project to learn more</h1>
+            <div id='ima' >
               <img src={pub_pic11} alt="" />
               <img src={pub_pic12} alt="" />
               <img src={pub_pic13} alt="" />
             </div>
-            <button data-aos="slide-up">PUBLISHING YOUR GAME</button>
+            <button >PUBLISHING YOUR GAME</button>
           </div>
           <Footer/>
     </>

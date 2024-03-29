@@ -7,7 +7,7 @@ const Jobsdetail = () => {
   return (
     <>
       <div className="row m-4">
-        <div className="col-4" id='job_sec1' data-aos="slide-right">
+        <div className="col-4" id='job_sec1' >
           <h3 className='text'>CG Artist</h3>
           <li style={{listStyle:"none"}} className='my-3'>Position: <span  className="text">CG Artist</span></li><hr/>
           <li style={{listStyle:"none"}}>Location: <span className="text">JAMAN SHAH</span></li><hr/>
@@ -16,7 +16,7 @@ const Jobsdetail = () => {
           <li style={{listStyle:"none"}}>Openings: <span className="text">4</span></li><hr/>
           <button onClick={()=>navigate("/career")} style={{width:'100%'}} className='btn mb-3'>SEE MORE JOBS</button>
         </div>
-        <div className="col-8" id='job_sec2' data-aos="slide-left">
+        <div className="col-8" id='job_sec2'>
           <h2>Company Description:</h2>
           <p className='mt-4'>Game District is an emerging Mobile Games Leader with 500+ Million Games Downloads and trusted by the Biggest companies like NFL, Hobbits, LEGO, and Outfit7. We believe in making outstanding & engaging games that take the market by storm. Specializing in Casual, Rpg, Mid core, and Hyper casual games.</p>
           <h2>Job Description:</h2>

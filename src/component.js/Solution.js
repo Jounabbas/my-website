@@ -7,7 +7,7 @@ const Solution = () => {
   return (
     <>
       <div className="sol_sec1">
-        <div className="sol_sec1_1"  data-aos="zoom-in-left">
+        <div className="sol_sec1_1" >
           <h1>Crafted Solutions Designed Exclusively for Your Gaming App.</h1>
           <p>
           In the thriving gaming industry, entrepreneurs must venture into collaborations, steering their future with resilience. 
@@ -17,7 +17,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
           <button>LEARN MORE</button>
         </div>
  
-        <div className="sol_sec1_2" data-aos="zoom-in-right">
+        <div className="sol_sec1_2">
           <img
             src="https://www.gamedistrict.co/assets/img/solutions_right.png"
             alt=""
@@ -25,7 +25,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
         </div>
       </div>
 
-      <div className="sol_sec2" data-aos="zoom-in-right">
+      <div className="sol_sec2" >
         <div className="sol_sec2_img">
         <img
           src="https://www.gamedistrict.co/assets/img/solutions_icon_1.png"
@@ -51,11 +51,11 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
       </div>
 
       <div className="sol_sec3" >
-        <h2 data-aos="slide-down">
+        <h2>
           Develop a better and secure <br /> experience for your users
         </h2>
         <div className="sol_sec3_1" >
-          <div className="sol_sec3_1_img" data-aos="slide-right">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_1.png"
@@ -71,7 +71,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
               />
             </div>
           </div>
-          <div className="sol_sec3_1_img" data-aos="slide-down">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_4.png"
@@ -87,7 +87,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
               />
             </div>
           </div>
-          <div className="sol_sec3_1_img" data-aos="slide-left">
+          <div className="sol_sec3_1_img" >
             <div>
               <img
                 src="https://www.gamedistrict.co/assets/img/develop_icon_7.png"
@@ -107,7 +107,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
       </div>
 
       <div className="sol_sec4">
-        <div className="sol_sec4_1" data-aos="slide-right" >
+        <div className="sol_sec4_1"  >
           <h4>Required Strategy</h4>
           <ul>
             <li>Work Breakdown Structure</li>
@@ -117,7 +117,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
             <li>Use Cases</li>
           </ul>
         </div>
-        <div className="sol_sec4_1" data-aos="slide-up">
+        <div className="sol_sec4_1">
           <h4>Design & Development</h4>
           <ul>
             <li>Low-Fi Design</li>
@@ -128,7 +128,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
             <li>Code Documentation</li>
           </ul>
         </div>
-        <div className="sol_sec4_1" data-aos="slide-left">
+        <div className="sol_sec4_1">
           <h4>Delivery & Support</h4>
           <ul>
             <li>Release Management</li>
@@ -143,17 +143,17 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
 
       <div id="about_sec5">
         <div id="about_sec5_1" >
-          <h2 data-aos="slide-right">
+          <h2 >
             Ready to start your project
             <span style={{ color: "yellow" }}>?</span>
           </h2>
-          <button data-aos="slide-left">LETS START</button>
+          <button>LETS START</button>
         </div>
       </div>
 
       <div className="sol_sec6">
-        <h1 data-aos="slide-down">Businesses That Trust Us</h1>
-        <div className="sol_sec6_1" data-aos="slide-right">
+        <h1>Businesses That Trust Us</h1>
+        <div className="sol_sec6_1" >
           <img
             src="https://www.gamedistrict.co/assets/img/startups_icon.jpg"
             alt=""
@@ -166,7 +166,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
           </ul>
         </div>
 
-        <div className="sol_sec6_2" data-aos="slide-up">
+        <div className="sol_sec6_2" >
           <img
             src="https://www.gamedistrict.co/assets/img/smbs_icon.jpg"
             alt=""
@@ -179,7 +179,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
           </ul>
         </div>
 
-        <div className="sol_sec6_2" data-aos="slide-left">
+        <div className="sol_sec6_2">
           <img
             src="https://www.gamedistrict.co/assets/img/enterprise_icon.jpg"
             alt=""
@@ -192,7 +192,7 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
           </ul>
         </div>
       </div>
-      <div className="sol_sec7" data-aos="slide-right">
+      <div className="sol_sec7">
         <h3>We Serve The Inception</h3>
         <p>
         We showcase your project comprehensively, 
@@ -203,9 +203,9 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
 
       <div className="sol_sec8">
         <div className="sol_sec8_1">
-            <img data-aos="flip-right" src="https://www.gamedistrict.co/assets/img/icon_inception_1.jpg" alt="" />
+            <img src="https://www.gamedistrict.co/assets/img/icon_inception_1.jpg" alt="" />
         </div>
-        <div className="sol_sec8_2" data-aos="slide-left">
+        <div className="sol_sec8_2" >
             <h4>App Discovery</h4>
             <p>Leveraging automated analysis of a software application's artifacts and extracting metadata structures significantly enhances app store visibility, 
            ensuring optimal reach and engagement with the right users. This strategic approach proves essential for maximizing your project's impact in the 
@@ -213,9 +213,9 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
         </div>
 
         <div className="sol_sec8_3">
-            <img data-aos="flip-left" src="https://www.gamedistrict.co/assets/img/icon_inception_2.jpg" alt="" />
+            <img  src="https://www.gamedistrict.co/assets/img/icon_inception_2.jpg" alt="" />
         </div>
-         <div className="sol_sec8_4" data-aos="slide-right">
+         <div className="sol_sec8_4">
             <h4>App Discovery</h4>
             <p>In the realm of game design, the usability of the interface plays a pivotal role, determining the triumph or downfall of a game or app. 
                 Successful ventures prioritize meticulous planning and effort in crafting a seamlessly intuitive UI & UX, recognizing it as a key element
@@ -225,9 +225,9 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
        
        
         <div className="sol_sec8_1">
-            <img data-aos="flip-left" src="https://www.gamedistrict.co/assets/img/icon_inception_3.jpg" alt="" />
+            <img  src="https://www.gamedistrict.co/assets/img/icon_inception_3.jpg" alt="" />
         </div>
-        <div className="sol_sec8_2" data-aos="slide-left">
+        <div className="sol_sec8_2" >
             <h4>App Discovery</h4>
             <p>Effective marketing stands as a cornerstone for the success of any business.
             Propagating product awareness through Google and in-app advertisements establishes a robust presence,
@@ -241,25 +241,25 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
       </div>
 
       <div className="sol_sec9">
-            <h2 data-aos="slide-down">Featured Work</h2>
+            <h2 >Featured Work</h2>
             <div className="sol_sec9_1">
-                <img data-aos="slide-right" src="https://www.gamedistrict.co/assets/img/feature_work_slide_1.jpg" alt="" />
+                <img src="https://www.gamedistrict.co/assets/img/feature_work_slide_1.jpg" alt="" />
             </div>
             <div className="sol_sec9_1">
-                <img data-aos="slide-up" src="https://www.gamedistrict.co/assets/img/feature_work_slide_2.jpg" alt="" />
+                <img  src="https://www.gamedistrict.co/assets/img/feature_work_slide_2.jpg" alt="" />
             </div>
             <div className="sol_sec9_1">
-                <img data-aos="slide-left" src="https://www.gamedistrict.co/assets/img/feature_work_slide_3.jpg" alt="" />
+                <img  src="https://www.gamedistrict.co/assets/img/feature_work_slide_3.jpg" alt="" />
             </div>
       </div>
 
       <div className="sol_sec10">
-        <div className="sol_sec10_1" data-aos="slide-up">
+        <div className="sol_sec10_1" >
             <h3>We Know All The Techs</h3>
             <p>Game District is always on toes to traverse every possible opportunity to collaborate</p>
         </div>
 
-        <div className="sol_sec10_2" data-aos="zoom-out-center">
+        <div className="sol_sec10_2" >
             <img  src={sol_pic1} alt="" />
             <img src={sol_pic2} alt="" />
            

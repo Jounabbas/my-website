@@ -38,13 +38,13 @@ const to ="jounabbasreact.js@gmail.com"
     <>
       <div className="row my-4 mx-3" >
         <div className="col-md-6 imagess" >
-          <img data-aos="flip-right"
+          <img
             id="pic"
             src={pic1}
             alt=""
           />
         </div>
-        <div className="col-md-6" data-aos="slide-left">
+        <div className="col-md-6">
           <h2>Application Form</h2>
           <input
             className="my-3"
