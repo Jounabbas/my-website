@@ -11,8 +11,8 @@ const Solution = () => {
           <h1>Crafted Solutions Designed Exclusively for Your Gaming App.</h1>
           <p>
           In the thriving gaming industry, entrepreneurs must venture into collaborations, steering their future with resilience. 
-Cutting-edge technologies such as artificial intelligence (AI) and virtual reality (VR) cast a futuristic impact, captivating digitally savvy users. 
-At Jabir Sons, we are always proactive, seizing every opportunity to collaborate, innovate, and bring intricate ideas to life for our users.
+          Cutting-edge technologies such as artificial intelligence (AI) and virtual reality (VR) cast a futuristic impact, captivating digitally savvy users. 
+          At Jabir Sons, we are always proactive, seizing every opportunity to collaborate, innovate, and bring intricate ideas to life for our users.
           </p>
           <button>LEARN MORE</button>
         </div>
@@ -217,10 +217,10 @@ At Jabir Sons, we are always proactive, seizing every opportunity to collaborate
         </div>
          <div className="sol_sec8_4">
             <h4>App Discovery</h4>
-            <p>In the realm of game design, the usability of the interface plays a pivotal role, determining the triumph or downfall of a game or app. 
+            <p>In the realm of game design, the usability of the interface plays a pivotal role, determining  the triumph or downfall of a game or app. 
                 Successful ventures prioritize meticulous planning and effort in crafting a seamlessly intuitive UI & UX, recognizing it as a key element
                 contributing to their overall success in the competitive landscape.
-</p>
+          </p>
         </div>
        
        
