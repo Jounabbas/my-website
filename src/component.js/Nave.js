@@ -10,7 +10,7 @@ const Navebar = () => {
   };
   return (
     <>
-      <div className="containers">
+      <div className="containers"> 
         <div className="nav">
           <div className="logo">
             <img src={logo} alt="" />
