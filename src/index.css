@@ -1608,14 +1608,51 @@ background-color: rgb(251, 255, 248);
   }
   .gam_sec11{
     width: 100%;
-    height: 180px;
     margin-top: 10px;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  
-  .gam_sec11 img{
-    width: 19%;
-    height: 160px;
-    margin-left: 1%;
+  .img_style{
+   margin: 10px;
+   position: relative;
+   overflow: hidden;
+  }
+  .img_style img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all.5s ease-in-out;
+
+  }
+  .img_style:hover img{
+    transition: all.5s ease-in-out;
+    left: 100%;
+  }
+   .img_detaile{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 34, 34);
+    transition: all .5s ease-in-out;
+    text-align: center;
+  }
+  .img_detaile h3{
+    color: white;
+    font-weight: bold;
+  }
+  .img_detaile p{
+    color: white;
+    margin: 10px;
+  }
+  .img_style:hover .img_detaile{
+    left: 0;
+    transition: all .5s ease-in-out;
   }
   .gam_sec12{
     width: 100%;

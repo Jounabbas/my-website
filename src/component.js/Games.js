@@ -1,8 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
-import game_pic1 from "./why games/1.jpg";
 import game_pic2 from "./why games/8.jpg";
-import game_pic10 from "./why games/10.png";
 import pic2 from "./why games/2.png"
 import pic3 from "./why games/3.png"
 import pic4 from "./why games/4.png"
@@ -122,19 +120,80 @@ const Games = () => {
       </div>
 
         <div className="gam_sec11">
+          <div className='img_style'>
             <img  src={pic11} alt="" />
-            <img src={pic12} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic12} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
             <img  src={pic13} alt="" />
-            <img src={pic14} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic14} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
             <img  src={pic15} alt="" />
-        </div>
-        <div className="gam_sec11">
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
             <img  src={pic16} alt="" />
-            <img src={pic17} alt="" />
-            <img src={pic18} alt="" />
-            <img src={pic19} alt="" />
-            <img src={pic20} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic17} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic18} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic19} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+          <div className='img_style'>
+            <img  src={pic20} alt="" />
+            <div className='img_detaile'>
+              <h3>Detail</h3>
+            <p>Game District longs for fresh & young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s .</p>
+            </div>
+          </div>
+         
+            
         </div>
+       
 
         <div className="gam_sec12" >
             <button >JOIN US</button>      </div>

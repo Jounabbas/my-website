@@ -50,63 +50,7 @@ const Solution = () => {
         </div>
       </div>
 
-      <div className="sol_sec3" >
-        <h2>
-          Develop a better and secure <br /> experience for your users
-        </h2>
-        <div className="sol_sec3_1" >
-          <div className="sol_sec3_1_img" >
-            <div>
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_1.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_2.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_3.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="sol_sec3_1_img" >
-            <div>
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_4.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_5.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_6.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="sol_sec3_1_img" >
-            <div>
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_7.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_8.png"
-                alt=""
-              />
-              <img
-                src="https://www.gamedistrict.co/assets/img/develop_icon_8.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="sol_sec4">
+      <div className="sol_sec4" style={{marginTop:"40px"}}>
         <div className="sol_sec4_1"  >
           <h4>Required Strategy</h4>
           <ul>
